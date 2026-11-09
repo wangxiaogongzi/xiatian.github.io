@@ -513,6 +513,25 @@ Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
 
+Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/com.qianuo.chatassist_0.1.67_iphoneos-arm64.deb
+Size: 1128964
+MD5sum: 1576930a936fa7e9f666e530bc6a6036
+SHA1: 99fa92ae5c4afac7a8f99d25aedc07dc9c284214
+SHA256: e1a53c9d4d00395f47d3df56d93f7e763bccf4b5fc80da60eec060003d4f3a2a
+SHA512: 8ef2a4d52647e9c2f555dc0ac8fa4e592930f400c96c44c1e61e1efd1cb58acb3d196a1375d7a850d26672f780dc0e50078e0b077b1d450cda98b9473761958f
+Section: 自用
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.chatassist.json
+
 Package: com.qy.freememory
 Architecture: iphoneos-arm64
 Version: 0.1.3
@@ -637,27 +656,23 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.snapbackup.json
 
-Package: com.tigisoftware.filza64bits
+Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
 Maintainer: TIGI Software
 Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
-Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
-Size: 6970916
-MD5sum: 46bbea1723b62c27e10810562042539e
-SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
-SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
-SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_roothide_iphoneos-arm64e.deb
+Size: 6972652
+MD5sum: 6391c39283f2cc45dcecf101228d4e28
+SHA1: 718d5c9bb34d0c749ca311e4917736804fe217ec
+SHA256: 35be3aa392b06cd7ed53dd3aa05bf5c3ddaa126ee692b33fba67321fc6cec28d
+SHA512: bcd8b044a4b877f5a2873b009ac40f0d61293ab01cf61326950a6137bfb55bb1445af0b395023ce910abc238456c39c5baedc4379ab2bc9904b16850746a12c8
 Section: 自用
-Description: Filza 文件管理器 RootHide 专用
- * 支持 RootHide Dopamine、BootStrap 半越狱
- * 支持解压打包 deb 插件
-Name: Filza 文件管理器
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
 Author: TIGI Software
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
-Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 
 Package: com.wxhbts.leftpan.roothide
 Architecture: iphoneos-arm64e
@@ -1221,25 +1236,6 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/stheno/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.nx.stheno.json
 
-Package: com.qianuo.chatassist
-Architecture: iphoneos-arm64
-Version: 0.1.67
-Maintainer: kanuo
-Installed-Size: 3228
-Depends: firmware (>= 15.0), preferenceloader, uikittools
-Filename: debs/com.qianuo.chatassist_0.1.67_iphoneos-arm64.deb
-Size: 1128964
-MD5sum: 1576930a936fa7e9f666e530bc6a6036
-SHA1: 99fa92ae5c4afac7a8f99d25aedc07dc9c284214
-SHA256: e1a53c9d4d00395f47d3df56d93f7e763bccf4b5fc80da60eec060003d4f3a2a
-SHA512: 8ef2a4d52647e9c2f555dc0ac8fa4e592930f400c96c44c1e61e1efd1cb58acb3d196a1375d7a850d26672f780dc0e50078e0b077b1d450cda98b9473761958f
-Section: Tweaks
-Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
-Name: ChatAssist
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depictions/chatassist/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.chatassist.json
-
 Package: com.qianuo.dyadaptive
 Architecture: iphoneos-arm64
 Version: 0.1.2~test2
@@ -1747,20 +1743,24 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
-Package: com.tigisoftware.filza64bit
+Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
 Maintainer: TIGI Software
 Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_roothide_iphoneos-arm64e.deb
-Size: 6972652
-MD5sum: 6391c39283f2cc45dcecf101228d4e28
-SHA1: 718d5c9bb34d0c749ca311e4917736804fe217ec
-SHA256: 35be3aa392b06cd7ed53dd3aa05bf5c3ddaa126ee692b33fba67321fc6cec28d
-SHA512: bcd8b044a4b877f5a2873b009ac40f0d61293ab01cf61326950a6137bfb55bb1445af0b395023ce910abc238456c39c5baedc4379ab2bc9904b16850746a12c8
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
 Section: 插件
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
-Name: Filza File Manager 64-bit
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Name: Filza 文件管理器
 Author: TIGI Software
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
