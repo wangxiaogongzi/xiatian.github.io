@@ -516,6 +516,25 @@ Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 
+Package: com.anubis.boardswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Maintainer: Anubis
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.anubis.boardswipe_1.0.0_iphoneos-arm64e.deb
+Size: 486864
+MD5sum: 5e84121486d14c27bc3d6019cd6fbd8e
+SHA1: a435564c0410aa371ff5728de2fdd62bab00e7b7
+SHA256: f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211
+SHA512: 125ccad4fe6a9459f077ee2ecdfa4a8d5ba7f6968684f8a28c10ce3b701416909b8e8db8e8ea11431561dd3af4d234525165d77be644a39bc690ca064dd4dbc8
+Section: Tweaks
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Name: BoardSwipe 滑动键盘
+Author: Anubis
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
 Version: 6.118
