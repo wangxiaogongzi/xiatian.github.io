@@ -515,3 +515,165 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.mlgm.pulloverx.json
 
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64
+Version: 1.3.14-launch-flicker-fix-zh
+Section: Tweaks
+Maintainer: ngkhoi
+Installed-Size: 29440
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.ngkhoi.26home_1.3.14-launch-flicker-fix-zh_iphoneos-arm64.deb
+Size: 26875192
+MD5sum: cad49f2a9f8d793815b083454be27ae7
+SHA1: d2fd50f5f83db6476232cde039a9eb744738f5cd
+SHA256: a52119bf4ec159a9c88abd1aa9c4018221007afd3e31a261ee6b0092d10b0778
+SHA512: 5cdbcafb6f0f3dfe1a318a34c39b24add080c9c409cc5906267bee81e57a4f49fc8b282a805b0511f35fba14273f132b63d3acbf812e60eb84f308f10a50c6af
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Name: 26Home
+Author: ngkhoi
+Icon: https://jimkanuo.github.io/apt-repo/depictions/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.ngkhoi.26home.json
+
+Package: com.nx.stheno
+Architecture: iphoneos-arm64
+Version: 2.0
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3821
+Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
+Filename: debs/com.nx.stheno_2.0_iphoneos-arm64.deb
+Size: 1074432
+MD5sum: 73237fb9e3802fb794594ebbfded3c29
+SHA1: b3b06af4d4f687c4f633c334c139427a1b5770c5
+SHA256: 71d2fc0b5eaf59dae65c8c522c015899d929e766980583e4eed047ed47a243b5
+SHA512: 9e3b425d2c8f9316352e65f83059e5bfb2623aefd40d6b6cc6151531c6b67853d9ac8efb498aa2fe39baddde2c580fa87569b11200603f62dc65f3172433555e
+Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
+Name: Stheno-去除验证版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/stheno/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.nx.stheno.json
+
+Package: com.opa334.crane
+Architecture: iphoneos-arm64e
+Version: 1.3.17-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 3252
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy (>= 1.1.6), com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/com.opa334.crane_1.3.17-2_iphoneos-arm64e.deb
+Size: 1881002
+MD5sum: ebf9fa88692bcfa7fa02fd81d9feae8d
+SHA1: 0f2f5861df121fcf90b86ecfe6ca1e15f7706ed8
+SHA256: 849a27692ba45ced197ce4c398e90b2a41909aaa95189f4145ccd309147b508c
+SHA512: 7bd8a36ca0f21562a2f95854570ee71d5c1153b9d1232a7cc6b80064af8f1bd3c47e4a68c75de9c3bed0f44e4e136dd7e1a4cf4ff522decb90ea6182b6abd43b
+Description: Multiple containers for your applications!
+Name: Crane
+Author: opa334
+
+Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/com.qianuo.chatassist_0.1.67_iphoneos-arm64.deb
+Size: 1128964
+MD5sum: 1576930a936fa7e9f666e530bc6a6036
+SHA1: 99fa92ae5c4afac7a8f99d25aedc07dc9c284214
+SHA256: e1a53c9d4d00395f47d3df56d93f7e763bccf4b5fc80da60eec060003d4f3a2a
+SHA512: 8ef2a4d52647e9c2f555dc0ac8fa4e592930f400c96c44c1e61e1efd1cb58acb3d196a1375d7a850d26672f780dc0e50078e0b077b1d450cda98b9473761958f
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.chatassist.json
+
+Package: com.qianuo.dyadaptive
+Architecture: iphoneos-arm64
+Version: 0.1.2~test2
+Section: Tweaks
+Maintainer: kanuo
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.bulid.dynamicui
+Filename: debs/com.qianuo.dyadaptive_0.1.2_test2_iphoneos-arm64.deb
+Size: 15646
+MD5sum: b75e4a1d494f75aca2c710e8dd8e5558
+SHA1: 9ef083d8cbacbf29522482430256522d882b80d9
+SHA256: 901410acc016d5b77095070b75e7e3e388780c18a572837311a39ddbc8afac9f
+SHA512: 247c62c46d0979ecf72335175b6f591edccc0882936a1a3179f493eed82b6b470af064ccc0985487d00f880adc6006a1b453ffa768c976040051c63f2637680e
+Description: 抖音窗口自适应（测试版）。让抖音在小窗 / 分屏里按实际内容窗口尺寸重新布局，
+ 而不是按物理全屏尺寸，解决小窗里画面被拉伸、按钮错位、点击区域对不上的问题。
+  .
+  【适用场景】
+  - 配合 PullOver-X 等小窗 / 分屏工具使用
+  - 抖音在非全屏窗口内比例失真、UI 被裁切或拉伸
+  .
+  【本版实现】
+  - 仅注入抖音，不注入 SpringBoard 与其他 App
+  - 仅当抖音自身代码在主线程查询 UIScreen.bounds 时返回内容窗口尺寸；
+    系统框架、后台线程、窗口不明确时保留原始屏幕尺寸
+  - 窗口尺寸变化后合并一次根视图布局，不重载视频列表、不改滚动位置、
+    不创建播放器、不伪造前后台事件
+  - 保留 iPad 字符串兼容，但只对抖音自身调用生效
+  - Playback 音频类别移除混音 / 压低其他音源选项，不主动激活音频会话
+  .
+  【配置】
+  无设置页。与 dylib 同目录的 DYAdaptive.config.plist 有三个开关：
+  Enabled / PadCompatibility / ExclusivePlayback
+  修改后需完全退出并重新打开抖音。
+  .
+  【⚠️ 测试版说明】
+  - 本版尚未完成真机验证，属实验性测试包
+  - 早期 0.1.0-test1 曾导致抖音无法启动，本版改为启动后延迟安装以规避
+  - 出现闪退、白屏、播放异常：卸载本插件后重新启动抖音即可恢复
+  - 安装前建议先卸载原版 DYnamicUI（com.bulid.dynamicui），不要同时运行
+  .
+  【依赖】
+  mobilesubstrate，iOS 15.0 及以上
+Name: 抖音窗口自适应（测试版）
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/dyadaptive/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.dyadaptive.json
+
+Package: com.qianuo.morrorlyrics
+Architecture: iphoneos-arm64
+Version: 0.8.25
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 2088
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.qianuo.morrorlyrics_0.8.25_iphoneos-arm64.deb
+Size: 343628
+MD5sum: ebd401e4a254dd1904cf587ea7c199d7
+SHA1: e431f8966be343cea701497f7e91488147cdfb9b
+SHA256: 0381d5b901ba6040ee15c5140440d8a36505ebf0acd5b455cedf28908e98090a
+SHA512: daf424e1491845a93c742d725a61f980aecbba2e31b930be4faeb6d62ef7c09a5f2840e11c3f2717e66e08af621cf213911cb7a3e0b177e5710df6a5832db429
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Name: MorrorLyrics 全屏歌词
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64
+Version: 0.8.19
+Section: Applications
+Maintainer: kanuo
+Installed-Size: 1688
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64.deb
+Size: 594742
+MD5sum: eb987744ff102742ff0b0692d222a054
+SHA1: 842ac634e36dd39cc959f91307a56901d6a49732
+SHA256: 2bcc62fb3c350ebd0d00f57f8e61f02811b7334eb8dbe527cb5d15f4b4e58596
+SHA512: 9bb746230bfcf90ef489901eb3512844f34638e9d9829d4e7db96962f9fa5b46b50984f34c2f786bc8ea6d33e0de3e87ef98099cdad588e6f193809b40aa346a
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
+
