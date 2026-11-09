@@ -873,6 +873,25 @@ Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
 
+Package: com.iosdump.appdata
+Architecture: iphoneos-arm64e
+Version: 2.7.5
+Maintainer: iosdump
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Filename: debs/com.iosdump.appdata_2.7.5_iphoneos-arm64e.deb
+Size: 1707624
+MD5sum: 18acc8143f16f8363e84eeb410e04152
+SHA1: 8ea8ed8b47e881690103096b8f475a3e417c4b95
+SHA256: cab015fc1f8634d924bda946af99c7136550b9115470136b379d86797a5950b9
+SHA512: 30083bf1cc821163112452b0b7988be8bb771db63bc0a6ee043369917c35b30c27c4e031807c478bc0248c5457c3e5687d9e58456d6c416c93a5d947af974681
+Section: Tweaks
+Description: 在主屏幕查看应用数据与管理应用
+Name: AppData
+Author: iosdump
+Icon: https://huayuarc.github.io/icon/AppData.png
+
 Package: com.lenglengyu.ghallownetwork-rootless
 Architecture: iphoneos-arm64e
 Version: 0.0.1
