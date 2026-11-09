@@ -1369,6 +1369,26 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.mlgm.pulloverx.json
 
+Package: com.muzi.mutool
+Architecture: iphoneos-arm64
+Version: 2.2.83-1
+Maintainer: Muzi
+Installed-Size: 5884
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutoollite
+Filename: debs/com.muzi.mutool_2.2.83-1_iphoneos-arm64.deb
+Size: 926268
+MD5sum: 373baf9c1434428ffcdcd59516cc72bd
+SHA1: 4d116978357951a3b246bf241a4ae5f109e2289b
+SHA256: 721e92207de521134e035c574129a497a273d65a27b6cadb1f84b260afe09827
+SHA512: 03102b500c58c57e45cd833ac24007ed4645fc8400aba769486950b1d1d23e237d9bd4b757f668aa09026cb3a6cb4937d965a13830332499d88908c00a7a55c3
+Section: Tweaks
+Description: MUtool 多功能工具集：灵动岛电池胶囊与电源菜单、桌面悬浮信息药丸（网速 / CPU / 内存 / 电池 / 天气 / 时间）、三合一状态栏、文件夹主题与大文件夹、通话自动录音与录屏增强、自动禁用 SIM 与卡槽管理、IPCC 运营商配置、WiFi 永连、充电提示音与 MagSafe 动画、温控调优、锁屏与主屏幕增强、定时任务、电池健康与深度信息。支持 rootless / roothide，iOS 15-17。
+Name: MUtool(rootless)
+Author: Muzi
+Icon: https://muzikeji.github.io/sileo/icons/mutool.png
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
+
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64
 Version: 1.3.14-launch-flicker-fix-zh
