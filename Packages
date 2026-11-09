@@ -455,6 +455,27 @@ Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 2236912
+MD5sum: c920bd8c454f8a9f8e8ee3f2e4e51a6e
+SHA1: 4f89b8ccdda6c93b174b441c87447e13126d0b37
+SHA256: 52a03aa40b3aed65f50f32b73286f587444e5d057d8999cdc294eae46fe0bb98
+SHA512: e2b556a708f5959123a5c50de8c65f66aca43d547e2d1cb3b46c34d36e2efc9e6a640fb7b1cdc8f47ec3dc523a43163e29bd5d732b5056b8aac21abab7386581
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
 Version: 6.118
