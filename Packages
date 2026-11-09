@@ -1173,6 +1173,24 @@ Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
 
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta8
+Maintainer: John d_ie
+Installed-Size: 1980
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/com.johndie.triggr_2.0.0_beta8_iphoneos-arm64e.deb
+Size: 233652
+MD5sum: bf918d3c7d14af061c3ea3c186a69f03
+SHA1: 04649ad4192b6d937a18398c210da063b9d384f4
+SHA256: 242ed241629674dd060664e8ba8c0189020595f063479bf52601a7aca09a5d15
+SHA512: 5912fab5f9bf49b15f8b504d2e2b898f425356b3696ad47a3de97aba83962e10850f176d3dbcfadabfda4b9a3ca0bce03fffc4737fa673cf3927000d7b0c8741
+Section: Tweaks
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Name: Triggr
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
 Package: com.lenglengyu.ghallownetwork-rootless
 Architecture: iphoneos-arm64e
 Version: 0.0.1
