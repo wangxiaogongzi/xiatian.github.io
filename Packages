@@ -206,6 +206,25 @@ Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状�
 Name: 灵屿通知
 Author: MoWang
 
+Package: com.anubis.boardswipe
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Maintainer: Anubis
+Installed-Size: 1036
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.anubis.boardswipe_1.0.0_iphoneos-arm64e.deb
+Size: 486864
+MD5sum: 5e84121486d14c27bc3d6019cd6fbd8e
+SHA1: a435564c0410aa371ff5728de2fdd62bab00e7b7
+SHA256: f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211
+SHA512: 125ccad4fe6a9459f077ee2ecdfa4a8d5ba7f6968684f8a28c10ce3b701416909b8e8db8e8ea11431561dd3af4d234525165d77be644a39bc690ca064dd4dbc8
+Section: 自用
+Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
+Name: BoardSwipe 滑动键盘
+Author: Anubis
+icon: https://huayuarc.github.io/icon/boardswipe.jpg
+
 Package: com.bvn.squidforcecrack.rl
 Architecture: iphoneos-arm64e
 Version: 1.0.1-1
@@ -418,6 +437,27 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Depiction: https://apt.wxhbts.com/view/12030
 SileoDepiction: https://apt.wxhbts.com/sileo/12030
 
+Package: me.lau.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1-11
+Maintainer: ren7995
+Installed-Size: 1008
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Filename: debs/me.lau.atria_1.4.1-11_iphoneos-arm64e.deb
+Size: 211356
+MD5sum: a59168d5a58f8a635b5059cb77137c49
+SHA1: 4b36ba3ae8251751e21daf056b9bb3c9c07a01ba
+SHA256: 1e08a4fd14131e08888638dc7e283134435f1d0d7121da0d3f9cc1be0c65de72
+SHA512: 12a2426b12d92bdd484fb4f77804819e73f85f0b45987e64a964653933c8960e4bb5b5c8b41a6e70aeba32160290635b4f5b6082f781233817b9d8bef355e492
+Section: 自用
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+icon: https://huayuarc.github.io/icon/Atria.png
+
 Package: com.qianuo.smartdeck.app
 Architecture: iphoneos-arm64
 Version: 0.8.19
@@ -515,25 +555,6 @@ Description: 状态栏信号/网络/电量三合一圆环图标。
 Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: com.anubis.boardswipe
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Maintainer: Anubis
-Installed-Size: 1036
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.anubis.boardswipe_1.0.0_iphoneos-arm64e.deb
-Size: 486864
-MD5sum: 5e84121486d14c27bc3d6019cd6fbd8e
-SHA1: a435564c0410aa371ff5728de2fdd62bab00e7b7
-SHA256: f3d9abcd8c19a016a46552a79a4d4627e3ddbdf2f7c8d2d5b1a83781fd73c211
-SHA512: 125ccad4fe6a9459f077ee2ecdfa4a8d5ba7f6968684f8a28c10ce3b701416909b8e8db8e8ea11431561dd3af4d234525165d77be644a39bc690ca064dd4dbc8
-Section: Tweaks
-Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe down to dismiss keyboard, swipe up to switch keyboards。
-Name: BoardSwipe 滑动键盘
-Author: Anubis
-icon: https://huayuarc.github.io/icon/boardswipe.jpg
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
@@ -1483,24 +1504,3 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: me.lau.atria
-Architecture: iphoneos-arm64e
-Version: 1.4.1-11
-Maintainer: ren7995
-Installed-Size: 1008
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
-Filename: debs/me.lau.atria_1.4.1-11_iphoneos-arm64e.deb
-Size: 211356
-MD5sum: a59168d5a58f8a635b5059cb77137c49
-SHA1: 4b36ba3ae8251751e21daf056b9bb3c9c07a01ba
-SHA256: 1e08a4fd14131e08888638dc7e283134435f1d0d7121da0d3f9cc1be0c65de72
-SHA512: 12a2426b12d92bdd484fb4f77804819e73f85f0b45987e64a964653933c8960e4bb5b5c8b41a6e70aeba32160290635b4f5b6082f781233817b9d8bef355e492
-Section: Tweaks
-Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
-Name: Atria
-Author: ren7995
-Sponsor: ren7995
-icon: https://huayuarc.github.io/icon/Atria.png
