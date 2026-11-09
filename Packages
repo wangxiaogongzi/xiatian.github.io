@@ -72,6 +72,26 @@ Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
 
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
+Size: 1789620
+MD5sum: 3fc4ca46da84b6872dc4bc5d12408788
+SHA1: 5fd30422efd401d19c202b395e0ad066f3f149be
+SHA256: a1ec2cc72389697b7d0c73211f7850a5fee0938316d290f80daa1f6f32ef894d
+SHA512: 294b8427b47609f0cd8ea0b57f7d63b53eec340f078bdfb23768abf277f8ad2bbfefac96e3690cb476ceb561460c3c710dc7a816e763a739eb8c04bd1f2c41df
+Section: 自用
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
 Package: cn.zqbb.hello.diagnosticdata
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -495,26 +515,6 @@ Description: 状态栏信号/网络/电量三合一圆环图标。
 Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: cn.octoforce.squidgesturepro
-Architecture: iphoneos-arm64e
-Version: 2.7.6-1
-Maintainer: SquidForce, Backup
-Installed-Size: 6668
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
-Size: 1789620
-MD5sum: 3fc4ca46da84b6872dc4bc5d12408788
-SHA1: 5fd30422efd401d19c202b395e0ad066f3f149be
-SHA256: a1ec2cc72389697b7d0c73211f7850a5fee0938316d290f80daa1f6f32ef894d
-SHA512: 294b8427b47609f0cd8ea0b57f7d63b53eec340f078bdfb23768abf277f8ad2bbfefac96e3690cb476ceb561460c3c710dc7a816e763a739eb8c04bd1f2c41df
-Section: Tweaks
-Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
-Name: SquidGesturePro(激活码)
-Author: SquidForce, Backup
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
