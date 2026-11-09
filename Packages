@@ -1076,6 +1076,25 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/stheno/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.nx.stheno.json
 
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
+Size: 159664
+MD5sum: 4a2923dc060fa9a7e346062ee629bb0a
+SHA1: 98833ec1cac30068e4c54e2bb5e685eee37d2017
+SHA256: e6c14c0942114c275108eb6ab407319daa2cf6f4d3060e95e641f4f0215321e2
+SHA512: 70ac5cea7e3b92bde26f04cdda1e05db810811e380e33bcf8ecb70aed201135b413020cb20e252d807daa4e1df570463653dd14ddd81b651e2bb91bf0796da3b
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+icon: https://huayuarc.github.io/icon/choicy.jpg
+
 Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64
 Version: 0.1.67
