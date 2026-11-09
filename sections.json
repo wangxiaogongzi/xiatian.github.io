@@ -4,21 +4,25 @@
       "name": "自用",
       "orig": "",
       "pkgs": [
-        "cn.zqbb.hello.jailport",
+        "com.stheno.tweak",
         "com.charlieleung.trollopenjb",
         "cn.zqbb.hello.diagnosticdata",
+        "cn.zqbb.hello.jailport",
+        "cn.zqbb.hello.keyboard.ai",
+        "cn.zqbb.hello.memorystatus",
         "cn.zqbb.stopautolaunchapps",
         "com.crctdd.stayalivelite",
-        "com.flex2areo.appprotect",
+        "com.dao.ccless",
         "com.iosdump.trollcmtweak",
         "com.opa334.crane",
         "com.rain.raincall",
-        "cn.zqbb.hello.keyboard.ai",
-        "cn.zqbb.hello.memorystatus",
+        "com.snail.allowlocationonce",
         "com.wxhbts.leftpan.roothide",
-        "com.stheno.tweak",
-        "com.dao.ccless",
-        "com.snail.allowlocationonce"
+        "com.MoWang.islanddigest",
+        "com.bvn.squidforcecrack.rl",
+        "com.dao.filzacrack",
+        "com.hmmzzz.fontmanager",
+        "com.tigisoftware.filza64bits"
       ]
     },
     {
