@@ -18,6 +18,7 @@
         "com.MoWang.islanddigest",
         "com.anubis.boardswipe",
         "com.axs.ipslog",
+        "com.axs.keyboardtools",
         "com.bvn.squidforcecrack.rl",
         "com.crctdd.stayalivelite",
         "com.dao.ccless",
@@ -27,6 +28,7 @@
         "com.iosdump.appdata",
         "com.iosdump.customcallbg",
         "com.iosdump.trollcmtweak",
+        "com.johndie.triggr",
         "com.lclrc.hammerit",
         "com.mlgm.actra",
         "com.mowang.crashanalyzer",
@@ -40,11 +42,10 @@
         "com.snapbackup",
         "com.tigisoftware.filza64bit",
         "com.wxhbts.leftpan.roothide",
-        "me.lau.atria",
-        "com.axs.keyboardtools",
-        "com.johndie.triggr",
         "iya.banana.billie.ambientbadge",
-        "iya.banana.iphoneduoicon"
+        "iya.banana.iphoneduoicon",
+        "me.lau.atria",
+        "im.mjh.doleo.roothide"
       ]
     },
     {
