@@ -1301,3 +1301,21 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
+
+Package: com.dao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28916
+MD5sum: 780888e00f6a297ae56497c8a703e641
+SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
+SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
+SHA512: ddd776131b68748dea90efd8f2b99460f139fedba2fdde149c7fdfc16f7aab8ab9c025a1a1d1e893b24327ded06cb7ce567bc52823e74fcaabe62135567a6919
+Section: 插件
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Name: Filza Crack(RootHide)
+Author: Netskao
