@@ -1,0 +1,51 @@
+Package: com.stheno.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.23-final.3
+Maintainer: Stheno
+Conflicts: com.nx.stheno
+Replaces: com.nx.stheno
+Filename: debs/Stheno_0.1.23-final.3_Production_CleanStable_iphoneos-arm64.deb
+Size: 542440
+MD5sum: b198a5bb469021ace56aee086974e9e0
+SHA1: 1cf3e6521ce8885b7c0e529d0be0790a896536a8
+SHA256: 293088b371a30ddddc100d2ecc9c017fa9bcabe925e71031f4325cc0e1ef2dea
+SHA512: e001e8dc3b8185494e6035eb80ef71208f92909a90ec617aa943e9ae02aeab4f7b9e6ca08f59e28741f46794363867d6caea1b70d1e2448694b06a79caa84a68
+Description: Clean production release based on the stable GOLDEN-rebound runtime. Keeps Stheno core, Camera, Keyboard and strict IdentityHandoff lifecycle release. Removes the Fix137 attribution probe and the disabled ManagerCoverInventory test component. No probe sampling, no experimental CALayerHost/CAContext mutation, and no test-log generation.
+Name: Stheno Production Final
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.5.2+offline.5
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 55444
+Depends: firmware (>= 15.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/TrollOpen_1.5.2_roothide_1.deb
+Size: 16761890
+MD5sum: d12abbab3231b73801fb8081cfce8d0b
+SHA1: d2cb238fce13f3e82e5d556b93c50729357e93e2
+SHA256: e6212d8e47f3280f417c9efef5f250ce53cc460f92112c954c71b19973056411
+SHA512: f626dfd42b917f7a99d1070a5eb63e9feb7a21356ed458ecaea8f784731737bef149f3738287aff83e3cb183070e0754a748bc7f90d3cadd1a01c463c28d1e7b
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+Name: TrollOpen
+Author: 一刀
+
+Package: cn.zqbb.hello.jailport
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Applications
+Maintainer: zqbb
+Installed-Size: 1188
+Depends: firmware (>= 15.0), apt, dpkg, coreutils, tar
+Filename: debs/cn.zqbb.hello.jailport_1.0.2_iphoneos-arm64e.deb
+Size: 409804
+MD5sum: 6b7bc4064a3fa27227db2518410b98c9
+SHA1: 89f0723e84b0bd745f3b0615e27eda977493daed
+SHA256: 1751f11bb2107c7d62e3b6c80fdb83aff29efe16bf3489456633701368ddabee
+SHA512: f5d6c4aba16ba303c4c2580f44777130e559fa7d3fd7e2e6514f2926931c05ef78c70690c00ec0b8f5ef8ff2844337b74cc3f4f30ffcc75e0b08db4d06924144
+Description: 越狱插件、依赖与文件的可视化备份和恢复
+Name: HelloJailPort
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
+
