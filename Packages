@@ -1584,6 +1584,27 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
+Package: com.82flex.singlemutes
+Architecture: iphoneos-arm64e
+Version: 1.7
+Maintainer: 82Flex
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Conflicts: com.82flex.singlemute
+Filename: debs/com.82flex.singlemutes_1.7_iphoneos-arm64e.deb
+Size: 27736
+MD5sum: 7a8b56896679a43d623d4d5688c51cf1
+SHA1: 713d12b1ef29dce01eec8a5ab268b865fb473b9e
+SHA256: f73b023f04b5babbcf9878ee964dfafe70b9ef6cd95f5975e43a02a282bfec65
+SHA512: de61a052ea2a5ac18be4ad5efce2d167fd8c68967731bd84167fe5f2146ad8388a8acaa74880fc753839a802455d08f2bef8bf01baf3b1be4729e63bc1789290
+Section: 插件
+Description: 状态栏左上角显示静音图标
+ * Just a single mute icon on the status bar of iOS
+Name: Single Mute 静音图标
+Author: 82Flex
+icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SingleMute/js.json
+
 Package: com.mowang.crashanalyzer
 Architecture: iphoneos-arm64
 Version: 1.4.2
