@@ -132,6 +132,45 @@ Description: 内置离线版，在16系统隐根状态测试正常，其他系�
 Name: TrollOpen
 Author: 一刀
 
+Package: cn.zqbb.hello.diagnosticdata
+Architecture: iphoneos-arm64e
+Version: 1.2
+Maintainer: zqbb
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.zqbb.hello.diagnosticdata_1.2_iphoneos-arm64e.deb
+Size: 35456
+MD5sum: 2c3c878af3856a25939ab963d67c9d50
+SHA1: 14f9f8e3fd96e467f85272395067bcc1f230ffa2
+SHA256: 7007ffd8e7334944f7d67daf24d2a16b0a660d47baed1b66105bf101b39e2cb9
+SHA512: 292588061b5b36a85f966aae6acd4e2c4c21b36a1888dcaa0568b368df5867d58ecdfa7cf8f91d29a05a8e92bda6b47a79e413ac3e6dc70ec7be616c295cb1e2
+Section: Tweaks
+Description: 清理分析数据!
+Name: Hello DiagnosticData
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
+
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: zqbb
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64.deb
+Size: 30450
+MD5sum: 283685c116141193860286828aa57f8d
+SHA1: d3be3c89b619f3cadd58e57ffcdaa5206b58179f
+SHA256: a1249978de9ec62675080668ff34aa863ae5e74dfd729836c5386ffe8cd59ea1
+SHA512: 6c5dde93fb0bc7c54f25c43fa1cf5da69740a4a6ee4c48499f48e4c609f15edc84143a75fe57a8742c3ea65d771bf9a31051c5d23825509e3522d5a74915a5fa
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台. 
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
 Version: 6.118
@@ -431,6 +470,23 @@ Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部�
 Name: Bottom-x iOS17 Relaxin
 Author: Color Black
 
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Maintainer: crctdd
+Installed-Size: 2640
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.3_iphoneos-arm64.deb
+Size: 306512
+MD5sum: 50b44f511f887f21343d5aaf36c6e96d
+SHA1: 285881062bb3d639d519965055ffbd439f52d19d
+SHA256: b3447723044c910d3d1e77df3ccf6ba40e89f8ab6516281737e1bca93a3b05ea
+SHA512: 0909153d154f3a845c8d5c5195a265644a61e5fd4306f7082fa7f2f5c14bdf24f99b5fe62dd2e7010be1cba958736a6b2ae71ee44aed6dc27287ee39cd3af9dd
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
 Package: com.flex2areo.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.6
@@ -448,6 +504,41 @@ Section: Tweaks
 Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
+
+Package: com.iosdump.trollcmtweak
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.trollcmtweak_1.1.8_iphoneos-arm64e.deb
+Size: 56602
+MD5sum: 9f68cfad57f38150cc80bb59aa77a761
+SHA1: 9ad6d2812031ff005eba167e66c8e913f8de86b7
+SHA256: 444dbfca89caed3817fae04a36fb1c4dbec5bafa5753218e61d37dc161aea063
+SHA512: 2d5507d325b844c053ae0f034e6c0cd23345ef298d5a2ef3f63e8d0656c86b236e315733bd86d50895f0c29bc7762f1042bdd2b6541580137360a49b50265015
+Section: Tweaks
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Name: TrollCM
+Author: iosdump
+
+Package: com.lenglengyu.ghallownetwork-rootless
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.lenglengyu.ghallownetwork-rootless_0.0.1_iphoneos-arm64e.deb
+Size: 10454
+MD5sum: ecff08888db448218b64d7997d34922a
+SHA1: fa922baf6e8a05326572bf0dd3410567d7d9b5d0
+SHA256: 5159cdbcf18eecb8e1221c3a7a75eee286eefedf38b3be78171bc8bea28d27ef
+SHA512: 8790252724488d720e56c80c99e421527045123e4cfc981cee571d87fe6ec3c7010f577683629b87d9d681908c51d703eb7f81c4bfededb86f90bc9a6366c947
+Section: Tweaks
+Description: 国行手机自动允许使用网络。
+Name: Allow Network-Rootless
+Author: lenglengyu
 
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
@@ -1176,3 +1267,37 @@ SHA512: e001e8dc3b8185494e6035eb80ef71208f92909a90ec617aa943e9ae02aeab4f7b9e6ca0
 Section: 插件
 Description: Clean production release based on the stable GOLDEN-rebound runtime. Keeps Stheno core, Camera, Keyboard and strict IdentityHandoff lifecycle release. Removes the Fix137 attribution probe and the disabled ManagerCoverInventory test component. No probe sampling, no experimental CALayerHost/CAContext mutation, and no test-log generation.
 Name: Stheno Production Final
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64
+Version: 2.1.0.1
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.rootless.cc
+Filename: debs/com.dao.ccless_2.1.0.1_iphoneos-arm64.deb
+Size: 513012
+MD5sum: d79a1c1ef425d5221859681609aeea5d
+SHA1: 8a9790302ba73548d44b54e9df68d7661f386605
+SHA256: a3e88331a41022ba0d64c554f89b3aae32aebb2c8d0b40bc4af5ca0517b30d72
+SHA512: ba13e508671f98bc2820f9883f248dfde822870a1152436df9ceeb04b0c51625e30460e490f67d18753237c5bb75d802f81a44e0a22a38db5dadf9ceeb18ba67
+Section: 插件
+Description: 超级控制中心模块集合！
+Name: CCLess++(rootless)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.snail.allowlocationonce
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/com.snail.allowlocationonce_1.0.2_iphoneos-arm64e.deb
+Size: 64660
+MD5sum: 511ea0f37e3bbe99f634a3846550323e
+SHA1: d65cf5604353f2d8f0f6e85a4045e0d76ff9d7dd
+SHA256: d34628d1f7c16c2f578201023863ef2f377ffa6419f0ce0d014ad8e69d3227e2
+SHA512: 3ed5370f2bfe6b71c9079ed66fd7c282ad02fc0bc5c19fb5aa2a900ee2e44f000c76b76430e65b9c93e8d9b834eecbac41b61835f55b9945a34d15979f5dce61
+Section: 插件
+Description: 地理位置请求弹窗，自动"允许一次"
+Name: 位置自动允许一次
+Author: Snail
