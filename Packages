@@ -340,6 +340,24 @@ Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新�
 Name: Filza Crack(RootHide)
 Author: Netskao
 
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64e
+Version: 1.5.1
+Maintainer: 半生年华
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.dynamicx.tweak_1.5.1_iphoneos-arm64e-2.deb
+Size: 197448
+MD5sum: 2155a261c99bdbaa8d9e5436bdffd0e6
+SHA1: 7bbe66de1db8ed35c9cd372552b9e4d73748b87d
+SHA256: bb3ae35dc72f9f75e893d5635442645ccf8d06dabf7ee6f252697bc06732c6a4
+SHA512: 587c5585f4036552c7208897a69f107f3cc44b312de23cba2d9f75508573dd7d1cf1f490168c3471fe88a7c1150bcac730abd26ec98e5633cdd12f2c5160f96c
+Section: 自用
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
 Package: com.hmmzzz.fontmanager
 Architecture: iphoneos-arm64
 Version: 0.3.8
@@ -1111,24 +1129,6 @@ Section: Tweaks
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
 Name: Bottom-x iOS17 Relaxin
 Author: Color Black
-
-Package: com.dynamicx.tweak
-Architecture: iphoneos-arm64e
-Version: 1.5.1
-Maintainer: 半生年华
-Installed-Size: 2308
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.dynamicx.tweak_1.5.1_iphoneos-arm64e-2.deb
-Size: 197448
-MD5sum: 2155a261c99bdbaa8d9e5436bdffd0e6
-SHA1: 7bbe66de1db8ed35c9cd372552b9e4d73748b87d
-SHA256: bb3ae35dc72f9f75e893d5635442645ccf8d06dabf7ee6f252697bc06732c6a4
-SHA512: 587c5585f4036552c7208897a69f107f3cc44b312de23cba2d9f75508573dd7d1cf1f490168c3471fe88a7c1150bcac730abd26ec98e5633cdd12f2c5160f96c
-Section: Tweaks
-Description: 万物皆上岛
-Name: DynamicX
-Author: 半生年华
-Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
 
 Package: com.flex2areo.appprotect
 Architecture: iphoneos-arm64e
