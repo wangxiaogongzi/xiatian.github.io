@@ -641,6 +641,26 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
 
+Package: com.rain.raincall
+Architecture: iphoneos-arm64
+Version: 2.6-2-14
+Maintainer: Rain
+Installed-Size: 2224
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.rain.raincall_2.6-2-14_iphoneos-arm64.deb
+Size: 357708
+MD5sum: 5ae6394dd20fc4d3540c6d055ea7bc7e
+SHA1: 762914df5a68c4e4bb829e96018844d10c7f3ff3
+SHA256: b708342871158c12465cc3bb3b2628bab52f2b6b9bf95041e2c0553f6c1cddf7
+SHA512: 3363c34bf4e64a6b89df04ace9944a87f648c85b9f8eb90ebfb52861956c22612885da3bdd4c41be822dd30487b63125203ace73263dd0a6ff7c23450e0a4c78
+Section: Tweaks
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
+ 通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
+ 支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
+Tag: role::hacker, purpose::extension
+Name: Rain的通话
+Author: Rain
+
 Package: com.sunshinesong.split-view-pro
 Architecture: iphoneos-arm64e
 Version: 2.1.0
