@@ -1890,6 +1890,24 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
+Package: im.mjh.doleo.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Maintainer: Junhong
+Installed-Size: 1040
+Depends: mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo.roothide_1.0.3_iphoneos-arm64e.deb
+Size: 232272
+MD5sum: e1c299a04c0b098b273413f312f334ec
+SHA1: bdc5da3405056ff3df11ec62059cda8acd2e23c8
+SHA256: 178b951a342055e6698fa8e90c5eb09a823a7cd1c71d7e5d2c4be344f7f14f42
+SHA512: 8d409e49c0a754ea8d24fcef4251f30b9a9602ede1fe9b29b6d2575658cf8f17c15947acd6dbd127a496095b8748f00b2b840b42f862ab148e80833726b7b61e
+Section: Tweaks
+Description: Download and keep local DEB packages in Sileo.
+Name: Doleo (Roothide)
+Author: Junhong
+Icon: file:///usr/share/doleo/icon.png
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
