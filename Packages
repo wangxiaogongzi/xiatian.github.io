@@ -497,6 +497,28 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/com.axs.ipslog_5.2.0-31_iphoneos-arm64.deb
+Size: 87630
+MD5sum: fba662bc47c8159b3fbe82076e7f3d73
+SHA1: 2f77e56fb8f4804ef64d9efd141ff0e71e49977d
+SHA256: 0d899012456e9acc3542ec4385a9e0a956e1beaea7153f74aafe080be57542a3
+SHA512: ffdc3d021e3b02085b01d08a6d703ad5dd594452d8d953e91f39dbdbbfc96ecead44ff83202ab5f7e4dfb4e5e0b41fbb114d11a0cae75fb5233bc13e3a2b13ef
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.axs.snapper3tag
 Architecture: iphoneos-arm64e
 Version: 5.2.0-326
@@ -1542,3 +1564,20 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64.deb
+Size: 137008
+MD5sum: 12f0d687883f30faffce3b20861023dd
+SHA1: e38dd0bc4e6179a8402316ae8c535dfd0b35f9ce
+SHA256: 3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b
+SHA512: 7aea6db4018bf8f14fc013f3362e116e73887d9dee11a78b275ed4a3539f53070b4c3f2a1a56f05e4eefb32201dbc0b9df4caabb0e8c5fcb5bca3bd4b5be9e34
+Section: 插件
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Name: AI 日志分析
+Author: MoWang
