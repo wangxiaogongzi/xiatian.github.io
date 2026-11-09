@@ -49,6 +49,26 @@ Author: zqbb
 Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
 SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
 
+Package: cn.zqbb.hello.keyboard.ai
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 2812288
+MD5sum: ca14c1e720358597e634ef3507b327de
+SHA1: f199bc5abbc73677d1d049da9a5414646ccdc0d6
+SHA256: 4760db713f0d7920df143d435bf8631616f0c67b5523971ec0bdf64850ed1f5e
+SHA512: 5d661f8d41560bfcd9786966aff6765525b037029cfb98e6beffe549a456d4b205f8e8e094dc7a416150c26394c8fdbbed8d25c4dbeb466de32467fe33ded5bd
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠 (roothide)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
 Package: cn.zqbb.hello.memorystatus
 Architecture: iphoneos-arm64e
 Version: 3.9.0-6
