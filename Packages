@@ -1927,6 +1927,24 @@ Author: Brend0n
 Icon: https://chinesebuilding.club/pic/cydia.png
 Sponsor: 搬运工
 
+Package: com.dao.rode
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: rootfs & daodao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: fr.rootfs.rode
+Filename: debs/com.dao.rode_1.0_iphoneos-arm64e.deb
+Size: 4476
+MD5sum: d6478352eced9d1c04626fd8c774d50c
+SHA1: 8881107426cee39ec848550c20d8554c2808ab42
+SHA256: 930600bb7f662629d37e52184ebf64f1a69ac4776cea3c31870a141536701be2
+SHA512: f65d0f8041473f70925a78a6fa208b56db9b8d085bcdc94157b3f25ee42932a6d59624252402ae25f494046e374864d9486db270bfac9159346f6d45f138f904
+Section: 插件
+Description: 打乱锁屏的密码盘，每次数字位置随机，无设置项。
+Name: Rode(RootHide)
+Author: rootfs
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
