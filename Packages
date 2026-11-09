@@ -31,6 +31,47 @@ Description: 内置离线版，在16系统隐根状态测试正常，其他系�
 Name: TrollOpen
 Author: 一刀
 
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1706972
+MD5sum: 1a521f308c287f34e1afb8eb271f98ac
+SHA1: c7e4e8d95c0d60096e581890bae4485b80b15b29
+SHA256: 2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4
+SHA512: a980e7cbcfdcdad67d581a98dff30b284cf61a0972ac10478fee9966013052f969907c2b3e04e9d8ca139b2729d047b87152872d9ecef3606c817af24fe4249e
+Section: 自用
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 2236912
+MD5sum: c920bd8c454f8a9f8e8ee3f2e4e51a6e
+SHA1: 4f89b8ccdda6c93b174b441c87447e13126d0b37
+SHA256: 52a03aa40b3aed65f50f32b73286f587444e5d057d8999cdc294eae46fe0bb98
+SHA512: e2b556a708f5959123a5c50de8c65f66aca43d547e2d1cb3b46c34d36e2efc9e6a640fb7b1cdc8f47ec3dc523a43163e29bd5d732b5056b8aac21abab7386581
+Section: 自用
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
+
 Package: cn.zqbb.hello.diagnosticdata
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -454,47 +495,6 @@ Description: 状态栏信号/网络/电量三合一圆环图标。
 Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: cn.octoforce.copyvault
-Architecture: iphoneos-arm64e
-Version: 1.9.0
-Maintainer: SquidForce, Backup
-Installed-Size: 6380
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
-Size: 1706972
-MD5sum: 1a521f308c287f34e1afb8eb271f98ac
-SHA1: c7e4e8d95c0d60096e581890bae4485b80b15b29
-SHA256: 2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4
-SHA512: a980e7cbcfdcdad67d581a98dff30b284cf61a0972ac10478fee9966013052f969907c2b3e04e9d8ca139b2729d047b87152872d9ecef3606c817af24fe4249e
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
-Name: CopyVault(激活码版)
-Author: SquidForce, Backup
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-icon: https://huayuarc.github.io/icon/CopyVault@2x.png
-
-Package: cn.octoforce.squidextender
-Architecture: iphoneos-arm64e
-Version: 3.7.4
-Maintainer: SquidForce, Backup
-Installed-Size: 9988
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
-Size: 2236912
-MD5sum: c920bd8c454f8a9f8e8ee3f2e4e51a6e
-SHA1: 4f89b8ccdda6c93b174b441c87447e13126d0b37
-SHA256: 52a03aa40b3aed65f50f32b73286f587444e5d057d8999cdc294eae46fe0bb98
-SHA512: e2b556a708f5959123a5c50de8c65f66aca43d547e2d1cb3b46c34d36e2efc9e6a640fb7b1cdc8f47ec3dc523a43163e29bd5d732b5056b8aac21abab7386581
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
-Name: SquidExtender(激活码版)
-Author: SquidForce, Backup
-SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
