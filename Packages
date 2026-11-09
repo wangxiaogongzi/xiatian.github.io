@@ -168,6 +168,25 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
 
+Package: cn.zqbb.hello.keyboardport
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Maintainer: zqbb
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/cn.zqbb.hello.keyboardport_1.0.2_iphoneos-arm64e.deb
+Size: 218376
+MD5sum: eda75887f6409655d6dbba022345eaad
+SHA1: fc3258d3fb9fd36a373f07c2e43ab76e04bd502a
+SHA256: 74c3d972bc5c86613aeb2ccd0b7798f18e1f0ae8138cb3848be07452ca03912a
+SHA512: 78793fb86839763216133ed290a01d49e25b36f623058cc8ae304231b9e738854ad6ec61b95aabeede583b31a2277550c7121b8165d61dfa69946cb8b2dbc995
+Section: 自用
+Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
+Name: HelloKeyboardPort
+Author: zqbb
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
+
 Package: cn.zqbb.hello.memorystatus
 Architecture: iphoneos-arm64e
 Version: 3.9.0-6
@@ -964,25 +983,6 @@ Description: 状态栏信号/网络/电量三合一圆环图标。
 Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: cn.zqbb.hello.keyboardport
-Architecture: iphoneos-arm64e
-Version: 1.0.2
-Maintainer: zqbb
-Installed-Size: 792
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/cn.zqbb.hello.keyboardport_1.0.2_iphoneos-arm64e.deb
-Size: 218376
-MD5sum: eda75887f6409655d6dbba022345eaad
-SHA1: fc3258d3fb9fd36a373f07c2e43ab76e04bd502a
-SHA256: 74c3d972bc5c86613aeb2ccd0b7798f18e1f0ae8138cb3848be07452ca03912a
-SHA512: 78793fb86839763216133ed290a01d49e25b36f623058cc8ae304231b9e738854ad6ec61b95aabeede583b31a2277550c7121b8165d61dfa69946cb8b2dbc995
-Section: Tweaks
-Description: 独立下载可编辑雾凇词表，再与本机系统基础词库离线合并
-Name: HelloKeyboardPort
-Author: zqbb
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.keyboardport.png
-SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.keyboardport
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
