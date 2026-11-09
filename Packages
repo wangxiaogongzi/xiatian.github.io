@@ -1180,6 +1180,25 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
 
+Package: com.sini921.ccborder
+Architecture: iphoneos-arm64e
+Version: 1.1.2-44
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Filename: debs/com.sini921.ccborder_1.1.2-44_iphoneos-arm64e.deb
+Size: 213596
+MD5sum: 16ba7be5e5df46f7d1efc7a6391b29d4
+SHA1: 4e53812f155a72a09118cc12fb78b112840f6ba2
+SHA256: 75d0a091cc9a2bd85118044efac847340ebc1fa869a7ed5473de83932ca772c5
+SHA512: ef1d9c79a50e3f3d8ef189cf3d90eaeba23a64166d3c45836c345fbb536cc9fbeb7a33dbdc3e4973f49971a9cefd988d18b701075e01a0dec0a4eacbe66d42d6
+Section: Tweaks
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Name: CCBorder
+Author: fiore & p2kdev & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+
 Package: com.sunshinesong.split-view-pro
 Architecture: iphoneos-arm64e
 Version: 2.1.0
