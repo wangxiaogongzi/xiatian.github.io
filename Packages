@@ -1908,6 +1908,25 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
+Package: byg.iosios.net.zhuxiao
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64e.deb
+Size: 4684
+MD5sum: 629f8481d303cbb105819cd8c9b73738
+SHA1: e6d83349e63ef37d0df5d8906dead9ddf6890603
+SHA256: 143cc8b192e939370a6ed59cc09845ee559a993741400ff0a2e5cf3acf7e769d
+SHA512: e75250d1c591fb9cdcd565ddd397b84cd85e01f3f69cbbd5bb7d46e4d0c8e8a09fd91988baef2585516964abe08a1ae8cc8834dc0edfb4775050520d300134db
+Section: 插件
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Name: 注销不锁屏-Roothide
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Sponsor: 搬运工
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
