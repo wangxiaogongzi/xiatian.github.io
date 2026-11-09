@@ -31,6 +31,25 @@ Description: 内置离线版，在16系统隐根状态测试正常，其他系�
 Name: TrollOpen
 Author: 一刀
 
+Package: byg.iosios.net.zhuxiao
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64e.deb
+Size: 4684
+MD5sum: 629f8481d303cbb105819cd8c9b73738
+SHA1: e6d83349e63ef37d0df5d8906dead9ddf6890603
+SHA256: 143cc8b192e939370a6ed59cc09845ee559a993741400ff0a2e5cf3acf7e769d
+SHA512: e75250d1c591fb9cdcd565ddd397b84cd85e01f3f69cbbd5bb7d46e4d0c8e8a09fd91988baef2585516964abe08a1ae8cc8834dc0edfb4775050520d300134db
+Section: 自用
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Name: 注销不锁屏-Roothide
+Author: Brend0n
+Icon: https://chinesebuilding.club/pic/cydia.png
+Sponsor: 搬运工
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
@@ -364,6 +383,24 @@ Section: 自用
 Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
 Name: Filza Crack(RootHide)
 Author: Netskao
+
+Package: com.dao.rode
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: rootfs & daodao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: fr.rootfs.rode
+Filename: debs/com.dao.rode_1.0_iphoneos-arm64e.deb
+Size: 4476
+MD5sum: d6478352eced9d1c04626fd8c774d50c
+SHA1: 8881107426cee39ec848550c20d8554c2808ab42
+SHA256: 930600bb7f662629d37e52184ebf64f1a69ac4776cea3c31870a141536701be2
+SHA512: f65d0f8041473f70925a78a6fa208b56db9b8d085bcdc94157b3f25ee42932a6d59624252402ae25f494046e374864d9486db270bfac9159346f6d45f138f904
+Section: 自用
+Description: 打乱锁屏的密码盘，每次数字位置随机，无设置项。
+Name: Rode(RootHide)
+Author: rootfs
 
 Package: com.dynamicx.tweak
 Architecture: iphoneos-arm64e
@@ -1907,43 +1944,6 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: byg.iosios.net.zhuxiao
-Architecture: iphoneos-arm64e
-Version: 0.0.3
-Maintainer: 搬运工
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64e.deb
-Size: 4684
-MD5sum: 629f8481d303cbb105819cd8c9b73738
-SHA1: e6d83349e63ef37d0df5d8906dead9ddf6890603
-SHA256: 143cc8b192e939370a6ed59cc09845ee559a993741400ff0a2e5cf3acf7e769d
-SHA512: e75250d1c591fb9cdcd565ddd397b84cd85e01f3f69cbbd5bb7d46e4d0c8e8a09fd91988baef2585516964abe08a1ae8cc8834dc0edfb4775050520d300134db
-Section: 插件
-Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
-Name: 注销不锁屏-Roothide
-Author: Brend0n
-Icon: https://chinesebuilding.club/pic/cydia.png
-Sponsor: 搬运工
-
-Package: com.dao.rode
-Architecture: iphoneos-arm64e
-Version: 1.0
-Maintainer: rootfs & daodao
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: fr.rootfs.rode
-Filename: debs/com.dao.rode_1.0_iphoneos-arm64e.deb
-Size: 4476
-MD5sum: d6478352eced9d1c04626fd8c774d50c
-SHA1: 8881107426cee39ec848550c20d8554c2808ab42
-SHA256: 930600bb7f662629d37e52184ebf64f1a69ac4776cea3c31870a141536701be2
-SHA512: f65d0f8041473f70925a78a6fa208b56db9b8d085bcdc94157b3f25ee42932a6d59624252402ae25f494046e374864d9486db270bfac9159346f6d45f138f904
-Section: 插件
-Description: 打乱锁屏的密码盘，每次数字位置随机，无设置项。
-Name: Rode(RootHide)
-Author: rootfs
 
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
