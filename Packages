@@ -1871,6 +1871,25 @@ Description: Custom notification badge styles with adaptive ambient glow. For Bi
 Name: AmbientBadge
 Author: Banana
 
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: Banana
+Installed-Size: 5596
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_1.1.6_iphoneos-arm64.deb
+Size: 1021198
+MD5sum: 931c5bb203326a39028d8639baff5959
+SHA1: 437feb4b5193f14040ed2e8d6c787c3364dc2079
+SHA256: 67860baf4ec407771e6c985a4bd0388df33dacd77d0c6c2be5797558963e53e5
+SHA512: e02731f7994b76aadb46be5bf8f72c7c820f889a327411c074feb82e1e592174295f9908f571344ac7d3eeea8da3981118a8770bf1dd30fa7aa5d25e78066593
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
@@ -1892,6 +1911,23 @@ Name: Filza 文件管理器
 Author: TIGI Software
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.audioservice_1.0.4_iphoneos-arm64.deb
+Size: 55356
+MD5sum: 4e6a498813024e64674d0ef9467f97c7
+SHA1: f3ca5974b3cef974ef2f5b087f7ed79062aace4e
+SHA256: 4f39f0ac2f402374acec561a63f3f9679064a82456c784973a2c37d42a20ae4a
+SHA512: 11587f537d5c5d74dc61ff570dceea3fcd5b3c3b004b43ea0082ec5f118be425c05cafdbff9911f97b4d0f1e7aef655a0709d0738cb046cf40990703f527fa22
+Section: 插件
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
 
 Package: preferenceloader
 Architecture: iphoneos-arm64e
