@@ -1,3 +1,54 @@
+Package: com.stheno.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.23-final.3
+Maintainer: Stheno
+Conflicts: com.nx.stheno
+Replaces: com.nx.stheno
+Filename: debs/Stheno_0.1.23-final.3_Production_CleanStable_iphoneos-arm64.deb
+Size: 542440
+MD5sum: b198a5bb469021ace56aee086974e9e0
+SHA1: 1cf3e6521ce8885b7c0e529d0be0790a896536a8
+SHA256: 293088b371a30ddddc100d2ecc9c017fa9bcabe925e71031f4325cc0e1ef2dea
+SHA512: e001e8dc3b8185494e6035eb80ef71208f92909a90ec617aa943e9ae02aeab4f7b9e6ca08f59e28741f46794363867d6caea1b70d1e2448694b06a79caa84a68
+Section: 插件
+Description: Clean production release based on the stable GOLDEN-rebound runtime. Keeps Stheno core, Camera, Keyboard and strict IdentityHandoff lifecycle release. Removes the Fix137 attribution probe and the disabled ManagerCoverInventory test component. No probe sampling, no experimental CALayerHost/CAContext mutation, and no test-log generation.
+Name: Stheno Production Final
+
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64e
+Version: 1.5.2+offline.5
+Maintainer: 一刀
+Installed-Size: 55444
+Depends: firmware (>= 15.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/TrollOpen_1.5.2_roothide_1.deb
+Size: 16761890
+MD5sum: d12abbab3231b73801fb8081cfce8d0b
+SHA1: d2cb238fce13f3e82e5d556b93c50729357e93e2
+SHA256: e6212d8e47f3280f417c9efef5f250ce53cc460f92112c954c71b19973056411
+SHA512: f626dfd42b917f7a99d1070a5eb63e9feb7a21356ed458ecaea8f784731737bef149f3738287aff83e3cb183070e0754a748bc7f90d3cadd1a01c463c28d1e7b
+Section: 插件
+Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
+Name: TrollOpen
+Author: 一刀
+
+Package: cn.zqbb.hello.diagnosticdata
+Architecture: iphoneos-arm64e
+Version: 1.2
+Maintainer: zqbb
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.zqbb.hello.diagnosticdata_1.2_iphoneos-arm64e.deb
+Size: 35456
+MD5sum: 2c3c878af3856a25939ab963d67c9d50
+SHA1: 14f9f8e3fd96e467f85272395067bcc1f230ffa2
+SHA256: 7007ffd8e7334944f7d67daf24d2a16b0a660d47baed1b66105bf101b39e2cb9
+SHA512: 292588061b5b36a85f966aae6acd4e2c4c21b36a1888dcaa0568b368df5867d58ecdfa7cf8f91d29a05a8e92bda6b47a79e413ac3e6dc70ec7be616c295cb1e2
+Section: 插件
+Description: 清理分析数据!
+Name: Hello DiagnosticData
+Author: zqbb
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
+
 Package: cn.zqbb.hello.jailport
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -10,32 +61,72 @@ MD5sum: 6b7bc4064a3fa27227db2518410b98c9
 SHA1: 89f0723e84b0bd745f3b0615e27eda977493daed
 SHA256: 1751f11bb2107c7d62e3b6c80fdb83aff29efe16bf3489456633701368ddabee
 SHA512: f5d6c4aba16ba303c4c2580f44777130e559fa7d3fd7e2e6514f2926931c05ef78c70690c00ec0b8f5ef8ff2844337b74cc3f4f30ffcc75e0b08db4d06924144
-Section: Applications
+Section: 插件
 Description: 越狱插件、依赖与文件的可视化备份和恢复
 Name: HelloJailPort
 Author: zqbb
 Icon: https://apt.002599.xyz/web/icon/cn.zqbb.hello.jailport.png
 SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.hello.jailport
 
-Package: com.qianuo.smartdeck.app
+Package: cn.zqbb.hello.keyboard.ai
+Architecture: iphoneos-arm64e
+Version: 6.6.6-3
+Maintainer: zqbb
+Installed-Size: 11100
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
+Size: 2812288
+MD5sum: ca14c1e720358597e634ef3507b327de
+SHA1: f199bc5abbc73677d1d049da9a5414646ccdc0d6
+SHA256: 4760db713f0d7920df143d435bf8631616f0c67b5523971ec0bdf64850ed1f5e
+SHA512: 5d661f8d41560bfcd9786966aff6765525b037029cfb98e6beffe549a456d4b205f8e8e094dc7a416150c26394c8fdbbed8d25c4dbeb466de32467fe33ded5bd
+Section: 插件
+Description: Quickly activate AI mode.
+Name: Hello 键盘侠 (roothide)
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-6
+Maintainer: zqbb
+Installed-Size: 11476
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
+Size: 3067422
+MD5sum: 2e7492c9d464414ae9b606a96ac53321
+SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
+SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
+SHA512: 9f995f711f493c76120ae7b8972cf52f52d5acd70f0233b29c646ab9a96f27132c4ad1684ab7b91ef3eb7c76dcf0d43f8563c14248eaead9f6cebb114a9c097f
+Section: 插件
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Name: Hello Memory Status
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64
-Version: 0.8.19
-Maintainer: kanuo
-Installed-Size: 1688
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Filename: debs/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64.deb
-Size: 594742
-MD5sum: eb987744ff102742ff0b0692d222a054
-SHA1: 842ac634e36dd39cc959f91307a56901d6a49732
-SHA256: 2bcc62fb3c350ebd0d00f57f8e61f02811b7334eb8dbe527cb5d15f4b4e58596
-SHA512: 9bb746230bfcf90ef489901eb3512844f34638e9d9829d4e7db96962f9fa5b46b50984f34c2f786bc8ea6d33e0de3e87ef98099cdad588e6f193809b40aa346a
-Section: Applications
-Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Name: SmartDeck App
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
+Version: 1.1
+Maintainer: zqbb
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64.deb
+Size: 30450
+MD5sum: 283685c116141193860286828aa57f8d
+SHA1: d3be3c89b619f3cadd58e57ffcdaa5206b58179f
+SHA256: a1249978de9ec62675080668ff34aa863ae5e74dfd729836c5386ffe8cd59ea1
+SHA512: 6c5dde93fb0bc7c54f25c43fa1cf5da69740a4a6ee4c48499f48e4c609f15edc84143a75fe57a8742c3ea65d771bf9a31051c5d23825509e3522d5a74915a5fa
+Section: 插件
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台. 
+ - 玄学:减少重启概率
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
 Package: com.axs.snapper3tag
 Architecture: iphoneos-arm64e
@@ -50,7 +141,7 @@ MD5sum: 713315a3e5dacadd7f8de13e7ca8c949
 SHA1: a8bd9b43e0e07e2c247ad3ce50681dac3c8a8e7d
 SHA256: 181533cf627a1b0fec97bc86bdb06060902f0bee52884910efcf21210a26d8ad
 SHA512: ff5a4bdad2df25f423143055252d31c6c0a6c8a6d5f492e1ca7244a25d221e25aafaf0ed5b9ec816baedef4db32be4d549014b2d231bef9a967ae1f35de0b188
-Section: Axs-Tweaks
+Section: 插件
 Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
  * 一、【自定义图标】
  * 创建 "/var/mobile/Axs/Snapper3图标/自定义文件夹" ，放入以下对应素材，即可替换默认图标：
@@ -97,80 +188,6 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
-Package: com.yourepo.axs.duostatus
-Architecture: iphoneos-arm64e
-Version: 5.2.0-75
-Maintainer: Axs <qiaozhani000@163.com>
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.yourepo.axs.duostatus_5.2.0-75_iphoneos-arm64e.deb
-Size: 114168
-MD5sum: ad4ebfcd28489d54e0f43e434e208210
-SHA1: 2f1feaa5730686b7c7a6bd3b7057272575d83ec6
-SHA256: 539996405ea64046a49fe01f43f4c6f343bfa53610201cc078dca95e732f8129
-SHA512: d7e5f85d6c2e535e543cf11e8c37d308eb00b4273fe5fc8b69509b308d05d21d46ccf2caa93c58c4483ab2a394bd906f38841d7912d652327ecacf264a7dfb6e
-Section: System (Axs-Tweaks)
-Description: 状态栏信号/网络/电量三合一圆环图标。
-Name: DuoStatus
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: com.charlieleung.trollopenjb
-Architecture: iphoneos-arm64e
-Version: 1.5.2+offline.5
-Maintainer: 一刀
-Installed-Size: 55444
-Depends: firmware (>= 15.0),mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
-Filename: debs/TrollOpen_1.5.2_roothide_1.deb
-Size: 16761890
-MD5sum: d12abbab3231b73801fb8081cfce8d0b
-SHA1: d2cb238fce13f3e82e5d556b93c50729357e93e2
-SHA256: e6212d8e47f3280f417c9efef5f250ce53cc460f92112c954c71b19973056411
-SHA512: f626dfd42b917f7a99d1070a5eb63e9feb7a21356ed458ecaea8f784731737bef149f3738287aff83e3cb183070e0754a748bc7f90d3cadd1a01c463c28d1e7b
-Section: Tweaks
-Description: 内置离线版，在16系统隐根状态测试正常，其他系统自测。
-Name: TrollOpen
-Author: 一刀
-
-Package: cn.zqbb.hello.diagnosticdata
-Architecture: iphoneos-arm64e
-Version: 1.2
-Maintainer: zqbb
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.zqbb.hello.diagnosticdata_1.2_iphoneos-arm64e.deb
-Size: 35456
-MD5sum: 2c3c878af3856a25939ab963d67c9d50
-SHA1: 14f9f8e3fd96e467f85272395067bcc1f230ffa2
-SHA256: 7007ffd8e7334944f7d67daf24d2a16b0a660d47baed1b66105bf101b39e2cb9
-SHA512: 292588061b5b36a85f966aae6acd4e2c4c21b36a1888dcaa0568b368df5867d58ecdfa7cf8f91d29a05a8e92bda6b47a79e413ac3e6dc70ec7be616c295cb1e2
-Section: Tweaks
-Description: 清理分析数据!
-Name: Hello DiagnosticData
-Author: zqbb
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
-
-Package: cn.zqbb.stopautolaunchapps
-Architecture: iphoneos-arm64
-Version: 1.1
-Maintainer: zqbb
-Installed-Size: 216
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
-Conflicts: zp.stopautolaunchapps
-Filename: debs/cn.zqbb.stopautolaunchapps_1.1_iphoneos-arm64.deb
-Size: 30450
-MD5sum: 283685c116141193860286828aa57f8d
-SHA1: d3be3c89b619f3cadd58e57ffcdaa5206b58179f
-SHA256: a1249978de9ec62675080668ff34aa863ae5e74dfd729836c5386ffe8cd59ea1
-SHA512: 6c5dde93fb0bc7c54f25c43fa1cf5da69740a4a6ee4c48499f48e4c609f15edc84143a75fe57a8742c3ea65d771bf9a31051c5d23825509e3522d5a74915a5fa
-Section: Tweaks
-Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯! 
- - 优点:节约内存,少杀后台. 
- - 玄学:减少重启概率
-Author: zqbb
-Name: Hello 3Q
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
-
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
 Version: 6.118
@@ -184,7 +201,7 @@ MD5sum: 68aab02406a163b356c074f710de7f66
 SHA1: 1b2ebaa9979a4a978726743c56ca10ab8f0dc72b
 SHA256: f130587ca43f9cbd0a41cb73680f39e968fdfc1c1228e766f8c6fee92786b616
 SHA512: ad420d50295c1a7dbe632340bb94cc58423d3add2629ef9fb1924cce61d137edfe3e734148fa0f1066229a9bfccad2a8804ae56cc7afe1d6997b5a6485fba30b
-Section: Tweaks
+Section: 插件
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
  .
@@ -465,7 +482,7 @@ MD5sum: 07a87dca4afeebc250c63d450c6c46db
 SHA1: 75c023f0b7f25a015205572bbc144c8555d918e1
 SHA256: 07d16e08044d78dae993ad4118c1fe475392df7f66ee2aded3939c67c1c047e0
 SHA512: d863b44c644e00c57f60e8b4b71f7e036d7bb084c72eec94de94d3ea776c27922d8fe41ccf3e7fe41f7cfbcee1c8b45e952ef9cfa32c749c3be899662b4b116c
-Section: Tweaks
+Section: 插件
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
 Name: Bottom-x iOS17 Relaxin
 Author: Color Black
@@ -482,10 +499,28 @@ MD5sum: 50b44f511f887f21343d5aaf36c6e96d
 SHA1: 285881062bb3d639d519965055ffbd439f52d19d
 SHA256: b3447723044c910d3d1e77df3ccf6ba40e89f8ab6516281737e1bca93a3b05ea
 SHA512: 0909153d154f3a845c8d5c5195a265644a61e5fd4306f7082fa7f2f5c14bdf24f99b5fe62dd2e7010be1cba958736a6b2ae71ee44aed6dc27287ee39cd3af9dd
-Section: Tweaks
+Section: 插件
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Name: StayAlive Lite
 Author: crctdd
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64
+Version: 2.1.0.1
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.rootless.cc
+Filename: debs/com.dao.ccless_2.1.0.1_iphoneos-arm64.deb
+Size: 513012
+MD5sum: d79a1c1ef425d5221859681609aeea5d
+SHA1: 8a9790302ba73548d44b54e9df68d7661f386605
+SHA256: a3e88331a41022ba0d64c554f89b3aae32aebb2c8d0b40bc4af5ca0517b30d72
+SHA512: ba13e508671f98bc2820f9883f248dfde822870a1152436df9ceeb04b0c51625e30460e490f67d18753237c5bb75d802f81a44e0a22a38db5dadf9ceeb18ba67
+Section: 插件
+Description: 超级控制中心模块集合！
+Name: CCLess++(rootless)
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
 Package: com.flex2areo.appprotect
 Architecture: iphoneos-arm64e
@@ -500,7 +535,7 @@ MD5sum: aa7ea1cab659e940e785d04e166bdaac
 SHA1: f5622fd0c9bb4d65137295145ba3173426712c38
 SHA256: f0c1365c687a9864c1202f710b2deeb920fdd15a8630bd585e6c048f9a127b49
 SHA512: 90f6a09694a783564dd9279cd191c9d9313018a87c37592c4b4b0a923540328378a31ccf8197e5e35c775b446a65836fef8791486d8112ae29487e7f27ea93df
-Section: Tweaks
+Section: 插件
 Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
@@ -517,7 +552,7 @@ MD5sum: 9f68cfad57f38150cc80bb59aa77a761
 SHA1: 9ad6d2812031ff005eba167e66c8e913f8de86b7
 SHA256: 444dbfca89caed3817fae04a36fb1c4dbec5bafa5753218e61d37dc161aea063
 SHA512: 2d5507d325b844c053ae0f034e6c0cd23345ef298d5a2ef3f63e8d0656c86b236e315733bd86d50895f0c29bc7762f1042bdd2b6541580137360a49b50265015
-Section: Tweaks
+Section: 插件
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Name: TrollCM
 Author: iosdump
@@ -535,7 +570,7 @@ MD5sum: ecff08888db448218b64d7997d34922a
 SHA1: fa922baf6e8a05326572bf0dd3410567d7d9b5d0
 SHA256: 5159cdbcf18eecb8e1221c3a7a75eee286eefedf38b3be78171bc8bea28d27ef
 SHA512: 8790252724488d720e56c80c99e421527045123e4cfc981cee571d87fe6ec3c7010f577683629b87d9d681908c51d703eb7f81c4bfededb86f90bc9a6366c947
-Section: Tweaks
+Section: 插件
 Description: 国行手机自动允许使用网络。
 Name: Allow Network-Rootless
 Author: lenglengyu
@@ -554,7 +589,7 @@ MD5sum: e17cb73d7ed9ee2921d1e0c36196f863
 SHA1: dd43fac86a7b0aa9a30ccd1e83a966b6d88db0cf
 SHA256: 8d521118cadc7815cc94c693e35f78ab502798b5f8817e2cb98ad33898689176
 SHA512: 925a71c9b47271c69c100a8804912faa6ca7afb97615a21eed75eaddacec3ff65db2287276634d050e373ec70a7754e9656fca3791d314bd6f28091e3290b51b
-Section: Tweaks
+Section: 插件
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
 Name: Kayoko
 Author: mlgm
@@ -575,7 +610,7 @@ MD5sum: a26dac2b154d4f46d25a1decd0a9ec98
 SHA1: 2a5613e735e7bb029ad3dffb4a48aea238b6409f
 SHA256: 63c3d444b829667740426547c5dacdaa5659aaa4116c737420875f7e01636a0e
 SHA512: fea36e7b92a57b107dd0a874155de112e8a7ec3944f3cd18537dc3c38b1e6865e7f8a9d2c77f4f5000b66205e24b9e56c14fd0602ec6d238d60f78aa57dfb3c9
-Section: Tweaks
+Section: 插件
 Description: Pullover-X窗口调度版
  1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
  两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
@@ -602,7 +637,7 @@ MD5sum: cad49f2a9f8d793815b083454be27ae7
 SHA1: d2fd50f5f83db6476232cde039a9eb744738f5cd
 SHA256: a52119bf4ec159a9c88abd1aa9c4018221007afd3e31a261ee6b0092d10b0778
 SHA512: 5cdbcafb6f0f3dfe1a318a34c39b24add080c9c409cc5906267bee81e57a4f49fc8b282a805b0511f35fba14273f132b63d3acbf812e60eb84f308f10a50c6af
-Section: Tweaks
+Section: 插件
 Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
 Name: 26Home
 Author: ngkhoi
@@ -621,7 +656,7 @@ MD5sum: 73237fb9e3802fb794594ebbfded3c29
 SHA1: b3b06af4d4f687c4f633c334c139427a1b5770c5
 SHA256: 71d2fc0b5eaf59dae65c8c522c015899d929e766980583e4eed047ed47a243b5
 SHA512: 9e3b425d2c8f9316352e65f83059e5bfb2623aefd40d6b6cc6151531c6b67853d9ac8efb498aa2fe39baddde2c580fa87569b11200603f62dc65f3172433555e
-Section: Tweaks
+Section: 插件
 Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
 Name: Stheno-去除验证版
 Author: kanuo
@@ -642,7 +677,7 @@ MD5sum: ebf9fa88692bcfa7fa02fd81d9feae8d
 SHA1: 0f2f5861df121fcf90b86ecfe6ca1e15f7706ed8
 SHA256: 849a27692ba45ced197ce4c398e90b2a41909aaa95189f4145ccd309147b508c
 SHA512: 7bd8a36ca0f21562a2f95854570ee71d5c1153b9d1232a7cc6b80064af8f1bd3c47e4a68c75de9c3bed0f44e4e136dd7e1a4cf4ff522decb90ea6182b6abd43b
-Section: Tweaks
+Section: 插件
 Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
@@ -659,7 +694,7 @@ MD5sum: 1576930a936fa7e9f666e530bc6a6036
 SHA1: 99fa92ae5c4afac7a8f99d25aedc07dc9c284214
 SHA256: e1a53c9d4d00395f47d3df56d93f7e763bccf4b5fc80da60eec060003d4f3a2a
 SHA512: 8ef2a4d52647e9c2f555dc0ac8fa4e592930f400c96c44c1e61e1efd1cb58acb3d196a1375d7a850d26672f780dc0e50078e0b077b1d450cda98b9473761958f
-Section: Tweaks
+Section: 插件
 Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
 Name: ChatAssist
 Author: kanuo
@@ -678,7 +713,7 @@ MD5sum: b75e4a1d494f75aca2c710e8dd8e5558
 SHA1: 9ef083d8cbacbf29522482430256522d882b80d9
 SHA256: 901410acc016d5b77095070b75e7e3e388780c18a572837311a39ddbc8afac9f
 SHA512: 247c62c46d0979ecf72335175b6f591edccc0882936a1a3179f493eed82b6b470af064ccc0985487d00f880adc6006a1b453ffa768c976040051c63f2637680e
-Section: Tweaks
+Section: 插件
 Description: 抖音窗口自适应（测试版）。让抖音在小窗 / 分屏里按实际内容窗口尺寸重新布局，
  而不是按物理全屏尺寸，解决小窗里画面被拉伸、按钮错位、点击区域对不上的问题。
   .
@@ -725,12 +760,32 @@ MD5sum: ebd401e4a254dd1904cf587ea7c199d7
 SHA1: e431f8966be343cea701497f7e91488147cdfb9b
 SHA256: 0381d5b901ba6040ee15c5140440d8a36505ebf0acd5b455cedf28908e98090a
 SHA512: daf424e1491845a93c742d725a61f980aecbba2e31b930be4faeb6d62ef7c09a5f2840e11c3f2717e66e08af621cf213911cb7a3e0b177e5710df6a5832db429
-Section: Tweaks
+Section: 插件
 Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
 Name: MorrorLyrics 全屏歌词
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
+
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64
+Version: 0.8.19
+Maintainer: kanuo
+Installed-Size: 1688
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64.deb
+Size: 594742
+MD5sum: eb987744ff102742ff0b0692d222a054
+SHA1: 842ac634e36dd39cc959f91307a56901d6a49732
+SHA256: 2bcc62fb3c350ebd0d00f57f8e61f02811b7334eb8dbe527cb5d15f4b4e58596
+SHA512: 9bb746230bfcf90ef489901eb3512844f34638e9d9829d4e7db96962f9fa5b46b50984f34c2f786bc8ea6d33e0de3e87ef98099cdad588e6f193809b40aa346a
+Section: 插件
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
 
 Package: com.rain.raincall
 Architecture: iphoneos-arm64
@@ -744,13 +799,29 @@ MD5sum: 5ae6394dd20fc4d3540c6d055ea7bc7e
 SHA1: 762914df5a68c4e4bb829e96018844d10c7f3ff3
 SHA256: b708342871158c12465cc3bb3b2628bab52f2b6b9bf95041e2c0553f6c1cddf7
 SHA512: 3363c34bf4e64a6b89df04ace9944a87f648c85b9f8eb90ebfb52861956c22612885da3bdd4c41be822dd30487b63125203ace73263dd0a6ff7c23450e0a4c78
-Section: Tweaks
+Section: 插件
 Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
  通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音
  支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机
 Tag: role::hacker, purpose::extension
 Name: Rain的通话
 Author: Rain
+
+Package: com.snail.allowlocationonce
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/com.snail.allowlocationonce_1.0.2_iphoneos-arm64e.deb
+Size: 64660
+MD5sum: 511ea0f37e3bbe99f634a3846550323e
+SHA1: d65cf5604353f2d8f0f6e85a4045e0d76ff9d7dd
+SHA256: d34628d1f7c16c2f578201023863ef2f377ffa6419f0ce0d014ad8e69d3227e2
+SHA512: 3ed5370f2bfe6b71c9079ed66fd7c282ad02fc0bc5c19fb5aa2a900ee2e44f000c76b76430e65b9c93e8d9b834eecbac41b61835f55b9945a34d15979f5dce61
+Section: 插件
+Description: 地理位置请求弹窗，自动"允许一次"
+Name: 位置自动允许一次
+Author: Snail
 
 Package: com.sunshinesong.split-view-pro
 Architecture: iphoneos-arm64e
@@ -765,7 +836,7 @@ MD5sum: b26998bd3c368dba4de6e48ee43c39cc
 SHA1: 7cf02ae5a44a9473414739f673e396e88ed0ca92
 SHA256: 39e7b61de1c7600d001c4d6df34df0a12f9d7909051cba70594218488c48dc44
 SHA512: 4ce20dafc29d874ee5405576be106e3a80e070b3c988e6fb0089c9cdeef10a25b76916d56ccf2aa82524b1eadd33f458de54086c57edbec15f3ce0545af3b321
-Section: Tweaks
+Section: 插件
 Description: iOS 17 隐根（RootHide）优化版的真分屏插件，把任意 App 塞进可选大小的浮窗，
  同时开多个窗口、边看视频边聊天、边看文档边回消息。
   .
@@ -826,7 +897,7 @@ MD5sum: 5021792729f4d3ac1ff7b85a1d52ae28
 SHA1: 8400a95214e08e76793dfc1526f5907cc2533bd7
 SHA256: a0397772eb34512bba9ad1872bf497c7c9615950958c0b094b394eac0ff5e43b
 SHA512: 73ec9d488707f177f2a358313ad6d43b3723120661c582f755d01940de5684882e70732a33d5008cb5b8bdad496f34e3289dcb0c26262fdc7914dccf8197bca5
-Section: Tweaks
+Section: 插件
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
  基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
@@ -1168,69 +1239,11 @@ MD5sum: 191eec7fde50053fc772a153eaede404
 SHA1: 128bef5af425c5e4302730aed9b23057803c6cb5
 SHA256: f07dacd8151634809a6759b36ecb6ed963fe697811f926fc0bed0dad763f5300
 SHA512: 1e37653b49403f0179e1c09802965674a1377df65544c718dda7d1071caafeb2ed0734363ce34b0607dabad86e7826ba4b894f4044c083b21dbcca7afa2054d0
-Section: Tweaks
+Section: 插件
 Description: 设置归类插件.
 Author: SOPPPra
 Name: SettingsRevamp
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-
-Package: com.xybp888.callassist17.roothide
-Architecture: iphoneos-arm64e
-Version: 2.1.0
-Priority: optional
-Maintainer: xybp888
-Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist17.roothide_2.1.0_iphoneos-arm64e.deb
-Size: 6182058
-MD5sum: 11d1be3824df6f1f2169f5a599c1000c
-SHA1: c2be10a99b4722ced051c2ab64146397102fbc9d
-SHA256: f72f4b2ab34a17af1c63998c6230ffb8ee6d950dfbf304cce3888f51a1f25452
-SHA512: 5645db4a91263e0c9b6be704dc9e62249d320f4630f98bbdb411e18e3c1f30e1a236f29677ad418d7f56319e95229723953f2a70b3344ad1a130afd42420a426
-Section: Tweaks
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS17-正式版(Roothide)
-Author: xybp888
-Depiction: https://apt.htv123.com/view/942
-SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: cn.zqbb.hello.keyboard.ai
-Architecture: iphoneos-arm64e
-Version: 6.6.6-3
-Maintainer: zqbb
-Installed-Size: 11100
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.zqbb.hello.keyboard.ai
-Filename: debs/cn.zqbb.hello.keyboard.ai_6.6.6-3_iphoneos-arm64e.deb
-Size: 2812288
-MD5sum: ca14c1e720358597e634ef3507b327de
-SHA1: f199bc5abbc73677d1d049da9a5414646ccdc0d6
-SHA256: 4760db713f0d7920df143d435bf8631616f0c67b5523971ec0bdf64850ed1f5e
-SHA512: 5d661f8d41560bfcd9786966aff6765525b037029cfb98e6beffe549a456d4b205f8e8e094dc7a416150c26394c8fdbbed8d25c4dbeb466de32467fe33ded5bd
-Section: zqbb Tweaks
-Description: Quickly activate AI mode.
-Name: Hello 键盘侠 (roothide)
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
-
-Package: cn.zqbb.hello.memorystatus
-Architecture: iphoneos-arm64e
-Version: 3.9.0-6
-Maintainer: zqbb
-Installed-Size: 11476
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
-Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-6_iphoneos-arm64e.deb
-Size: 3067422
-MD5sum: 2e7492c9d464414ae9b606a96ac53321
-SHA1: 155a8815d4ed6815522393c6a9136dc118ff40f4
-SHA256: 97b86c1b2a5128670765e5f0b658171f6fec522d90c5b242570351ce46378c2b
-SHA512: 9f995f711f493c76120ae7b8972cf52f52d5acd70f0233b29c646ab9a96f27132c4ad1684ab7b91ef3eb7c76dcf0d43f8563c14248eaead9f6cebb114a9c097f
-Section: zqbb Tweaks
-Description: Set memorystatus to avoid being killed by the system
-Author: zqbb
-Name: Hello Memory Status
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
 
 Package: com.wxhbts.leftpan.roothide
 Architecture: iphoneos-arm64e
@@ -1244,7 +1257,7 @@ MD5sum: f63ba988345ba81e8537628d8c658f08
 SHA1: 77e195be6e6fdab177700ec3591907226c8fd8ae
 SHA256: acec7971a4b43a730ae5d3df0615b87ab2f0b223edf01ff65b2f261b2356e16a
 SHA512: 355b40ac29c628c41d258f23ce27c085a3dd7ed9412216564e465a4ec10e96f34560513a05b707525980ed9baae62ff1b8b242aa034cacd425b3431e731c0d89
-Section: 常用插件
+Section: 插件
 Description: 左滑返回上一页面
 Name: 左滑返回-Roothide
 Author: Mao
@@ -1252,52 +1265,39 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Depiction: https://apt.wxhbts.com/view/12030
 SileoDepiction: https://apt.wxhbts.com/sileo/12030
 
-Package: com.stheno.tweak
-Architecture: iphoneos-arm64
-Version: 0.1.23-final.3
-Maintainer: Stheno
-Conflicts: com.nx.stheno
-Replaces: com.nx.stheno
-Filename: debs/Stheno_0.1.23-final.3_Production_CleanStable_iphoneos-arm64.deb
-Size: 542440
-MD5sum: b198a5bb469021ace56aee086974e9e0
-SHA1: 1cf3e6521ce8885b7c0e529d0be0790a896536a8
-SHA256: 293088b371a30ddddc100d2ecc9c017fa9bcabe925e71031f4325cc0e1ef2dea
-SHA512: e001e8dc3b8185494e6035eb80ef71208f92909a90ec617aa943e9ae02aeab4f7b9e6ca08f59e28741f46794363867d6caea1b70d1e2448694b06a79caa84a68
-Section: 插件
-Description: Clean production release based on the stable GOLDEN-rebound runtime. Keeps Stheno core, Camera, Keyboard and strict IdentityHandoff lifecycle release. Removes the Fix137 attribution probe and the disabled ManagerCoverInventory test component. No probe sampling, no experimental CALayerHost/CAContext mutation, and no test-log generation.
-Name: Stheno Production Final
-
-Package: com.dao.ccless
-Architecture: iphoneos-arm64
-Version: 2.1.0.1
-Maintainer: 妖刀
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.rootless.cc
-Filename: debs/com.dao.ccless_2.1.0.1_iphoneos-arm64.deb
-Size: 513012
-MD5sum: d79a1c1ef425d5221859681609aeea5d
-SHA1: 8a9790302ba73548d44b54e9df68d7661f386605
-SHA256: a3e88331a41022ba0d64c554f89b3aae32aebb2c8d0b40bc4af5ca0517b30d72
-SHA512: ba13e508671f98bc2820f9883f248dfde822870a1152436df9ceeb04b0c51625e30460e490f67d18753237c5bb75d802f81a44e0a22a38db5dadf9ceeb18ba67
-Section: 插件
-Description: 超级控制中心模块集合！
-Name: CCLess++(rootless)
-Author: 妖刀
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
-Package: com.snail.allowlocationonce
+Package: com.xybp888.callassist17.roothide
 Architecture: iphoneos-arm64e
-Version: 1.0.2
-Installed-Size: 304
-Depends: mobilesubstrate
-Filename: debs/com.snail.allowlocationonce_1.0.2_iphoneos-arm64e.deb
-Size: 64660
-MD5sum: 511ea0f37e3bbe99f634a3846550323e
-SHA1: d65cf5604353f2d8f0f6e85a4045e0d76ff9d7dd
-SHA256: d34628d1f7c16c2f578201023863ef2f377ffa6419f0ce0d014ad8e69d3227e2
-SHA512: 3ed5370f2bfe6b71c9079ed66fd7c282ad02fc0bc5c19fb5aa2a900ee2e44f000c76b76430e65b9c93e8d9b834eecbac41b61835f55b9945a34d15979f5dce61
+Version: 2.1.0
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist17.roothide_2.1.0_iphoneos-arm64e.deb
+Size: 6182058
+MD5sum: 11d1be3824df6f1f2169f5a599c1000c
+SHA1: c2be10a99b4722ced051c2ab64146397102fbc9d
+SHA256: f72f4b2ab34a17af1c63998c6230ffb8ee6d950dfbf304cce3888f51a1f25452
+SHA512: 5645db4a91263e0c9b6be704dc9e62249d320f4630f98bbdb411e18e3c1f30e1a236f29677ad418d7f56319e95229723953f2a70b3344ad1a130afd42420a426
 Section: 插件
-Description: 地理位置请求弹窗，自动"允许一次"
-Name: 位置自动允许一次
-Author: Snail
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS17-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/942
+SileoDepiction: https://apt.htv123.com/sileo/942
+
+Package: com.yourepo.axs.duostatus
+Architecture: iphoneos-arm64e
+Version: 5.2.0-75
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.yourepo.axs.duostatus_5.2.0-75_iphoneos-arm64e.deb
+Size: 114168
+MD5sum: ad4ebfcd28489d54e0f43e434e208210
+SHA1: 2f1feaa5730686b7c7a6bd3b7057272575d83ec6
+SHA256: 539996405ea64046a49fe01f43f4c6f343bfa53610201cc078dca95e732f8129
+SHA512: d7e5f85d6c2e535e543cf11e8c37d308eb00b4273fe5fc8b69509b308d05d21d46ccf2caa93c58c4483ab2a394bd906f38841d7912d652327ecacf264a7dfb6e
+Section: 插件
+Description: 状态栏信号/网络/电量三合一圆环图标。
+Name: DuoStatus
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
