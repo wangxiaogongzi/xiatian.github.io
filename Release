@@ -9,8 +9,8 @@ Description: 自用备份
 Support: https://wangxiaogongzi.github.io/xiatian.github.io/
 Icon: https://wangxiaogongzi.github.io/xiatian.github.io/CydiaIcon.png
 MD5Sum:
- 66c186f2356e3790dc5c5dfe482378d7  39321 Packages
- 83580bbdce26c92eaf2ee9bb64790127  17051 Packages.gz
+ fb427d8ffa4c74fdab94d85e2371885b  78862 Packages
+ 9799d42c7e69aad6c2d816cc27b83919  32965 Packages.gz
 SHA256:
- d855f99d4778d0dfb908be8254f87924587c4d2daa40362e3c5cecdf3a2349fd  39321 Packages
- 00867b650375305455886a3209be54f30a0fdcbd0164f05fcee97fe9afd878d9  17051 Packages.gz
+ fa26bca6e68aacdf85024f071aad6b815c2ae2494c11e92092b2bf81c40d5321  78862 Packages
+ 6306f6298393ac6725562836181d56e89acacb078ccae937f212d9b7845e20ac  32965 Packages.gz
