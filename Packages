@@ -128,6 +128,42 @@ Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.26
+Maintainer: MoWang
+Installed-Size: 2124
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.26_iphoneos-arm64.deb
+Size: 1583698
+MD5sum: 5d2defdd97d0e1fd5c4fd67f07e4b82d
+SHA1: 31ea3806cbeb495fa0e8203a62a572cb0e9ca491
+SHA256: bc6c074c2c6bc6a769d07dc0e22367ca836f7ff27eaf5954ddf0cfc8702a7184
+SHA512: c7eb561c1e1e16990f6b101dfc9678204a3419fb23b292bbb212f4594ed5a95995526af62bd7442b9c9a6b05b4ec04767e1a3e5326834417cf24c9923ef64acd
+Section: 自用
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
+Package: com.bvn.squidforcecrack.rl
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Maintainer: BVN
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
+Size: 36936
+MD5sum: 3a817babf0231da296be4d9ae76b6573
+SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
+SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+SHA512: ed0c976d4ccf2e8403ca5a69381c1592a48700e9bcc06ee7c601130d00a3b98b412de540876ee05b5741a9207a3a0efde8987f98b25a918bdf68329f2c588acf
+Section: 自用
+Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
+Name: SquidForce VIP
+Author: BVN
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+
 Package: com.crctdd.stayalivelite
 Architecture: iphoneos-arm64
 Version: 0.4.3
@@ -163,23 +199,49 @@ Name: CCLess++(rootless)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
-Package: com.flex2areo.appprotect
+Package: com.dao.filzacrack
 Architecture: iphoneos-arm64e
-Version: 2.4.6
-Maintainer: aReo
-Installed-Size: 2664
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
-Filename: debs/com.flex2areo.appprotect_2.4.6_iphoneos-arm64e.deb
-Size: 1238600
-MD5sum: aa7ea1cab659e940e785d04e166bdaac
-SHA1: f5622fd0c9bb4d65137295145ba3173426712c38
-SHA256: f0c1365c687a9864c1202f710b2deeb920fdd15a8630bd585e6c048f9a127b49
-SHA512: 90f6a09694a783564dd9279cd191c9d9313018a87c37592c4b4b0a923540328378a31ccf8197e5e35c775b446a65836fef8791486d8112ae29487e7f27ea93df
+Version: 1.1-9
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28916
+MD5sum: 780888e00f6a297ae56497c8a703e641
+SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
+SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
+SHA512: ddd776131b68748dea90efd8f2b99460f139fedba2fdde149c7fdfc16f7aab8ab9c025a1a1d1e893b24327ded06cb7ce567bc52823e74fcaabe62135567a6919
 Section: 自用
-Description: App 隐私保护
-Name: AppProtect(Roothide)
-Author: aReo
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
+Name: Filza Crack(RootHide)
+Author: Netskao
+
+Package: com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.8
+Maintainer: Hmmzzz
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Filename: debs/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64.deb
+Size: 503524
+MD5sum: 482ed7c78534b40ba35d8e4992440a27
+SHA1: e0ab33d509fc717724581188be8762f1b8f65196
+SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
+SHA512: a9fff76545d616614423f1b23e2a590978e3c90d3d53652d1d0f4364956f9d1a4ee2739777ecf1110a95dee0111aad41680b652ee22f1e86b3dc8653b85d9d7c
+Homepage: https://hmmzzz.github.io/repo/
+Section: 自用
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
 
 Package: com.iosdump.trollcmtweak
 Architecture: iphoneos-arm64e
@@ -252,6 +314,28 @@ Section: 自用
 Description: 地理位置请求弹窗，自动"允许一次"
 Name: 位置自动允许一次
 Author: Snail
+
+Package: com.tigisoftware.filza64bits
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
+Section: 自用
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Name: Filza 文件管理器
+Author: TIGI Software
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 
 Package: com.wxhbts.leftpan.roothide
 Architecture: iphoneos-arm64e
@@ -370,23 +454,6 @@ Description: 状态栏信号/网络/电量三合一圆环图标。
 Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-
-Package: com.MoWang.islanddigest
-Architecture: iphoneos-arm64
-Version: 0.3.26
-Maintainer: MoWang
-Installed-Size: 2124
-Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
-Filename: debs/com.MoWang.islanddigest_0.3.26_iphoneos-arm64.deb
-Size: 1583698
-MD5sum: 5d2defdd97d0e1fd5c4fd67f07e4b82d
-SHA1: 31ea3806cbeb495fa0e8203a62a572cb0e9ca491
-SHA256: bc6c074c2c6bc6a769d07dc0e22367ca836f7ff27eaf5954ddf0cfc8702a7184
-SHA512: c7eb561c1e1e16990f6b101dfc9678204a3419fb23b292bbb212f4594ed5a95995526af62bd7442b9c9a6b05b4ec04767e1a3e5326834417cf24c9923ef64acd
-Section: Tweaks
-Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
-Name: 灵屿通知
-Author: MoWang
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
@@ -686,6 +753,24 @@ Section: Tweaks
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
 Name: Bottom-x iOS17 Relaxin
 Author: Color Black
+
+Package: com.flex2areo.appprotect
+Architecture: iphoneos-arm64e
+Version: 2.4.6
+Maintainer: aReo
+Installed-Size: 2664
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless
+Filename: debs/com.flex2areo.appprotect_2.4.6_iphoneos-arm64e.deb
+Size: 1238600
+MD5sum: aa7ea1cab659e940e785d04e166bdaac
+SHA1: f5622fd0c9bb4d65137295145ba3173426712c38
+SHA256: f0c1365c687a9864c1202f710b2deeb920fdd15a8630bd585e6c048f9a127b49
+SHA512: 90f6a09694a783564dd9279cd191c9d9313018a87c37592c4b4b0a923540328378a31ccf8197e5e35c775b446a65836fef8791486d8112ae29487e7f27ea93df
+Section: Tweaks
+Description: App 隐私保护
+Name: AppProtect(Roothide)
+Author: aReo
 
 Package: com.lenglengyu.ghallownetwork-rootless
 Architecture: iphoneos-arm64e
@@ -1318,88 +1403,3 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: com.bvn.squidforcecrack.rl
-Architecture: iphoneos-arm64e
-Version: 1.0.1-1
-Maintainer: BVN
-Installed-Size: 328
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
-Size: 36936
-MD5sum: 3a817babf0231da296be4d9ae76b6573
-SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
-SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
-SHA512: ed0c976d4ccf2e8403ca5a69381c1592a48700e9bcc06ee7c601130d00a3b98b412de540876ee05b5741a9207a3a0efde8987f98b25a918bdf68329f2c588acf
-Section: 插件
-Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
-Name: SquidForce VIP
-Author: BVN
-icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
-
-Package: com.dao.filzacrack
-Architecture: iphoneos-arm64e
-Version: 1.1-9
-Maintainer: Nets
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
-Filename: debs/com.dao.filzacrack_1.1-9_iphoneos-arm64e.deb
-Size: 28916
-MD5sum: 780888e00f6a297ae56497c8a703e641
-SHA1: 32f92db6ca5cc095b25291484ff87a293263fd24
-SHA256: 370d022cefa5615f39acb2ed9f16627bc765c958f0279924fd7991c9f6abc698
-SHA512: ddd776131b68748dea90efd8f2b99460f139fedba2fdde149c7fdfc16f7aab8ab9c025a1a1d1e893b24327ded06cb7ce567bc52823e74fcaabe62135567a6919
-Section: 插件
-Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持 roothide。
-Name: Filza Crack(RootHide)
-Author: Netskao
-
-Package: com.hmmzzz.fontmanager
-Architecture: iphoneos-arm64
-Version: 0.3.8
-Maintainer: Hmmzzz
-Installed-Size: 2528
-Depends: firmware (>= 16.0), uikittools
-Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
-Filename: debs/com.hmmzzz.fontmanager_0.3.8_iphoneos-arm64.deb
-Size: 503524
-MD5sum: 482ed7c78534b40ba35d8e4992440a27
-SHA1: e0ab33d509fc717724581188be8762f1b8f65196
-SHA256: f8eebe8b562d8a73ac0ddad86d8a8dac5b0fa9973d06ccd96292913a5e593155
-SHA512: a9fff76545d616614423f1b23e2a590978e3c90d3d53652d1d0f4364956f9d1a4ee2739777ecf1110a95dee0111aad41680b652ee22f1e86b3dc8653b85d9d7c
-Homepage: https://hmmzzz.github.io/repo/
-Section: 插件
-Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
- * 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
- * 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
- * MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
- * 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
-Name: MarkFont 字体管理器
-Author: Hmmzzz
-Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
-Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
-SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
-
-Package: com.tigisoftware.filza64bits
-Architecture: iphoneos-arm64e
-Version: 4.0.1-4~roothide
-Maintainer: TIGI Software
-Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
-Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
-Size: 6970916
-MD5sum: 46bbea1723b62c27e10810562042539e
-SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
-SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
-SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
-Section: 插件
-Description: Filza 文件管理器 RootHide 专用
- * 支持 RootHide Dopamine、BootStrap 半越狱
- * 支持解压打包 deb 插件
-Name: Filza 文件管理器
-Author: TIGI Software
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
-Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
