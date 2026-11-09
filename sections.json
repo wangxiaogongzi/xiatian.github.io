@@ -6,6 +6,7 @@
       "pkgs": [
         "com.stheno.tweak",
         "com.charlieleung.trollopenjb",
+        "byg.iosios.net.zhuxiao",
         "cn.octoforce.copyvault",
         "cn.octoforce.squidextender",
         "cn.octoforce.squidgesturepro",
@@ -23,6 +24,7 @@
         "com.crctdd.stayalivelite",
         "com.dao.ccless",
         "com.dao.filzacrack",
+        "com.dao.rode",
         "com.dynamicx.tweak",
         "com.hmmzzz.fontmanager",
         "com.iosdump.appdata",
@@ -46,8 +48,7 @@
         "iya.banana.billie.ambientbadge",
         "iya.banana.iphoneduoicon",
         "me.lau.atria",
-        "byg.iosios.net.zhuxiao",
-        "com.dao.rode"
+        "cn.zqbb.hello.keyboardport"
       ]
     },
     {
