@@ -914,6 +914,25 @@ Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
 
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 969572
+MD5sum: 289a9b616b2a0f09212db145434dcdec
+SHA1: 2571756867bc55e03e8c8a19fec64614295175d3
+SHA256: db83e986cc746ea3cc5d4f2cdfb1ff807380716fbddbe4a8b9f697d6cfe0b021
+SHA512: 496260c62d3cd5834303ce15cbcc32346f633d04286a6c86ff218359f9840fe80e46d2693459286c378ba8e2da13d11e95b48587eb96e17dfe5db27a64914353
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+
 Package: com.lenglengyu.ghallownetwork-rootless
 Architecture: iphoneos-arm64e
 Version: 0.0.1
