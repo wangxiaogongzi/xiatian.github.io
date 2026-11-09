@@ -755,6 +755,42 @@ Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 Depiction: https://apt.wxhbts.com/view/12030
 SileoDepiction: https://apt.wxhbts.com/sileo/12030
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e.deb
+Size: 115174
+MD5sum: 89fa8791e82ef6d645e26963dc6dc539
+SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
+SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
+SHA512: fa708f6b9585250c4bde667839095ccfa833eea5c18c3d51fcc7202aa55cc6ed83a1230afe1ffbc9aeb5076073c338a1a30c281ea462e9be04ad1a7e67e1d181
+Section: 自用
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+
+Package: iya.banana.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: Banana
+Installed-Size: 5596
+Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Suggests: iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_1.1.6_iphoneos-arm64.deb
+Size: 1021198
+MD5sum: 931c5bb203326a39028d8639baff5959
+SHA1: 437feb4b5193f14040ed2e8d6c787c3364dc2079
+SHA256: 67860baf4ec407771e6c985a4bd0388df33dacd77d0c6c2be5797558963e53e5
+SHA512: e02731f7994b76aadb46be5bf8f72c7c820f889a327411c074feb82e1e592174295f9908f571344ac7d3eeea8da3981118a8770bf1dd30fa7aa5d25e78066593
+Section: 自用
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Name: Lunora
+Author: Banana
+
 Package: me.lau.atria
 Architecture: iphoneos-arm64e
 Version: 1.4.1-11
@@ -1853,42 +1889,6 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: iya.banana.billie.ambientbadge
-Architecture: iphoneos-arm64e
-Version: 0.1.16
-Maintainer: Banana
-Installed-Size: 748
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e.deb
-Size: 115174
-MD5sum: 89fa8791e82ef6d645e26963dc6dc539
-SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
-SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
-SHA512: fa708f6b9585250c4bde667839095ccfa833eea5c18c3d51fcc7202aa55cc6ed83a1230afe1ffbc9aeb5076073c338a1a30c281ea462e9be04ad1a7e67e1d181
-Section: Tweaks
-Description: Custom notification badge styles with adaptive ambient glow. For Billie.
-Name: AmbientBadge
-Author: Banana
-
-Package: iya.banana.iphoneduoicon
-Architecture: iphoneos-arm64
-Version: 1.1.6
-Maintainer: Banana
-Installed-Size: 5596
-Depends: firmware (>= 15.1), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Suggests: iya.banana.audioservice (>= 1.0.4)
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_1.1.6_iphoneos-arm64.deb
-Size: 1021198
-MD5sum: 931c5bb203326a39028d8639baff5959
-SHA1: 437feb4b5193f14040ed2e8d6c787c3364dc2079
-SHA256: 67860baf4ec407771e6c985a4bd0388df33dacd77d0c6c2be5797558963e53e5
-SHA512: e02731f7994b76aadb46be5bf8f72c7c820f889a327411c074feb82e1e592174295f9908f571344ac7d3eeea8da3981118a8770bf1dd30fa7aa5d25e78066593
-Section: Tweaks
-Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Name: Lunora
-Author: Banana
 
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
