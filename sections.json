@@ -1,37 +1,7 @@
 {
   "sections": [
     {
-      "name": "Applications",
-      "orig": "Applications",
-      "pkgs": []
-    },
-    {
-      "name": "Axs-Tweaks",
-      "orig": "Axs-Tweaks",
-      "pkgs": []
-    },
-    {
-      "name": "System (Axs-Tweaks)",
-      "orig": "System (Axs-Tweaks)",
-      "pkgs": []
-    },
-    {
-      "name": "Tweaks",
-      "orig": "Tweaks",
-      "pkgs": []
-    },
-    {
-      "name": "zqbb Tweaks",
-      "orig": "zqbb Tweaks",
-      "pkgs": []
-    },
-    {
-      "name": "常用插件",
-      "orig": "常用插件",
-      "pkgs": []
-    },
-    {
-      "name": "插件",
+      "name": "自用",
       "orig": "",
       "pkgs": []
     }
