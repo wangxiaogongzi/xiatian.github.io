@@ -13,6 +13,7 @@
         "cn.zqbb.hello.diagnosticdata",
         "cn.zqbb.hello.jailport",
         "cn.zqbb.hello.keyboard.ai",
+        "cn.zqbb.hello.keyboardport",
         "cn.zqbb.hello.memorystatus",
         "cn.zqbb.stopautolaunchapps",
         "com.82flex.singlemutes",
@@ -48,7 +49,7 @@
         "iya.banana.billie.ambientbadge",
         "iya.banana.iphoneduoicon",
         "me.lau.atria",
-        "cn.zqbb.hello.keyboardport"
+        "com.muzi.mutool"
       ]
     },
     {
