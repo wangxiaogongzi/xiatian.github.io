@@ -910,6 +910,25 @@ Description: 国行手机自动允许使用网络。
 Name: Allow Network-Rootless
 Author: lenglengyu
 
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.3.5_iphoneos-arm64.deb
+Size: 817094
+MD5sum: e27d91e8a742d22ac942f93214995726
+SHA1: 83d180456292e039ce86535742f6a9a0714409d3
+SHA256: 0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75
+SHA512: f8645d434f6676de7ee40739734f7458dd143eac49736dc73676ac5550ba4c9fd640b69bc974bbfde96ebfb6464fb1849dfd4c4c0b2af0530070ce3db8adcaa7
+Section: Tweaks
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
 Version: 4.9
