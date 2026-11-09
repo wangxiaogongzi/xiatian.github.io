@@ -1854,6 +1854,23 @@ Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
+Package: iya.banana.billie.ambientbadge
+Architecture: iphoneos-arm64e
+Version: 0.1.16
+Maintainer: Banana
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.billie.ambientbadge_0.1.16_iphoneos-arm64e.deb
+Size: 115174
+MD5sum: 89fa8791e82ef6d645e26963dc6dc539
+SHA1: 790a8aaa05d2eb37bdd0d8db5ccc59d82616f311
+SHA256: 394d808d7c0aefb12c729b0fa119c55ec10ddc54642411f96de902fcc780d466
+SHA512: fa708f6b9585250c4bde667839095ccfa833eea5c18c3d51fcc7202aa55cc6ed83a1230afe1ffbc9aeb5076073c338a1a30c281ea462e9be04ad1a7e67e1d181
+Section: Tweaks
+Description: Custom notification badge styles with adaptive ambient glow. For Billie.
+Name: AmbientBadge
+Author: Banana
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
