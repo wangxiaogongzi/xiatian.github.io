@@ -3,6 +3,57 @@
     {
       "name": "自用",
       "orig": "",
+      "pkgs": [
+        "cn.zqbb.hello.jailport",
+        "com.charlieleung.trollopenjb",
+        "cn.zqbb.hello.diagnosticdata",
+        "cn.zqbb.stopautolaunchapps",
+        "com.crctdd.stayalivelite",
+        "com.flex2areo.appprotect",
+        "com.iosdump.trollcmtweak",
+        "com.opa334.crane",
+        "com.rain.raincall",
+        "cn.zqbb.hello.keyboard.ai",
+        "cn.zqbb.hello.memorystatus",
+        "com.wxhbts.leftpan.roothide",
+        "com.stheno.tweak",
+        "com.dao.ccless",
+        "com.snail.allowlocationonce"
+      ]
+    },
+    {
+      "name": "Applications",
+      "orig": "Applications",
+      "pkgs": []
+    },
+    {
+      "name": "Axs-Tweaks",
+      "orig": "Axs-Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "System (Axs-Tweaks)",
+      "orig": "System (Axs-Tweaks)",
+      "pkgs": []
+    },
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "zqbb Tweaks",
+      "orig": "zqbb Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "常用插件",
+      "orig": "常用插件",
+      "pkgs": []
+    },
+    {
+      "name": "插件",
+      "orig": "",
       "pkgs": []
     }
   ]
