@@ -189,6 +189,27 @@ Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: com.82flex.singlemutes
+Architecture: iphoneos-arm64e
+Version: 1.7
+Maintainer: 82Flex
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Conflicts: com.82flex.singlemute
+Filename: debs/com.82flex.singlemutes_1.7_iphoneos-arm64e.deb
+Size: 27736
+MD5sum: 7a8b56896679a43d623d4d5688c51cf1
+SHA1: 713d12b1ef29dce01eec8a5ab268b865fb473b9e
+SHA256: f73b023f04b5babbcf9878ee964dfafe70b9ef6cd95f5975e43a02a282bfec65
+SHA512: de61a052ea2a5ac18be4ad5efce2d167fd8c68967731bd84167fe5f2146ad8388a8acaa74880fc753839a802455d08f2bef8bf01baf3b1be4729e63bc1789290
+Section: 自用
+Description: 状态栏左上角显示静音图标
+ * Just a single mute icon on the status bar of iOS
+Name: Single Mute 静音图标
+Author: 82Flex
+icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SingleMute/js.json
+
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
 Version: 0.3.26
@@ -224,6 +245,28 @@ Description: 向下滑动可关闭键盘，向上滑动可切换键盘。Swipe d
 Name: BoardSwipe 滑动键盘
 Author: Anubis
 icon: https://huayuarc.github.io/icon/boardswipe.jpg
+
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64
+Version: 5.2.0-31
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 512
+Depends: preferenceloader
+Filename: debs/com.axs.ipslog_5.2.0-31_iphoneos-arm64.deb
+Size: 87630
+MD5sum: fba662bc47c8159b3fbe82076e7f3d73
+SHA1: 2f77e56fb8f4804ef64d9efd141ff0e71e49977d
+SHA256: 0d899012456e9acc3542ec4385a9e0a956e1beaea7153f74aafe080be57542a3
+SHA512: ffdc3d021e3b02085b01d08a6d703ad5dd594452d8d953e91f39dbdbbfc96ecead44ff83202ab5f7e4dfb4e5e0b41fbb114d11a0cae75fb5233bc13e3a2b13ef
+Section: 自用
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+Name: IPSLog
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
 Package: com.bvn.squidforcecrack.rl
 Architecture: iphoneos-arm64e
@@ -342,6 +385,24 @@ Name: AppData
 Author: iosdump
 Icon: https://huayuarc.github.io/icon/AppData.png
 
+Package: com.iosdump.customcallbg
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 68184
+MD5sum: 4784af231359a04d7d47f5745e477ad8
+SHA1: 05cd856e845e44592d0ddd4c2a83c1d298e96420
+SHA256: 57421c570bcab60d66d05e7b01e2fbed1465e361c226554158b6544ab1962795
+SHA512: d1c6d43592501f2aaf0a2efd8bae59b5d706935693fb35204ecf4344067f4f1025fa5ae61b544bc873d748c88ed348bdeec203359ba266d9d9da001d7962a229
+Section: 自用
+Description: iOS 14-17 自定义来去电背景插件
+Name: 自定义来去电背景
+Author: iosdump
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+
 Package: com.iosdump.trollcmtweak
 Architecture: iphoneos-arm64e
 Version: 1.1.8
@@ -358,6 +419,80 @@ Section: 自用
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Name: TrollCM
 Author: iosdump
+
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 969572
+MD5sum: 289a9b616b2a0f09212db145434dcdec
+SHA1: 2571756867bc55e03e8c8a19fec64614295175d3
+SHA256: db83e986cc746ea3cc5d4f2cdfb1ff807380716fbddbe4a8b9f697d6cfe0b021
+SHA512: 496260c62d3cd5834303ce15cbcc32346f633d04286a6c86ff218359f9840fe80e46d2693459286c378ba8e2da13d11e95b48587eb96e17dfe5db27a64914353
+Section: 自用
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: https://huayuarc.github.io/icon/HammerIt.png
+
+Package: com.mlgm.actra
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin
+Filename: debs/com.mlgm.actra_1.3.5_iphoneos-arm64.deb
+Size: 817094
+MD5sum: e27d91e8a742d22ac942f93214995726
+SHA1: 83d180456292e039ce86535742f6a9a0714409d3
+SHA256: 0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75
+SHA512: f8645d434f6676de7ee40739734f7458dd143eac49736dc73676ac5550ba4c9fd640b69bc974bbfde96ebfb6464fb1849dfd4c4c0b2af0530070ce3db8adcaa7
+Section: 自用
+Description: 手势与事件自动化工具
+Name: Actra
+Icon: https://mlgm66.github.io/icon/actra.png
+Author: mlgm
+
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64.deb
+Size: 137008
+MD5sum: 12f0d687883f30faffce3b20861023dd
+SHA1: e38dd0bc4e6179a8402316ae8c535dfd0b35f9ce
+SHA256: 3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b
+SHA512: 7aea6db4018bf8f14fc013f3362e116e73887d9dee11a78b275ed4a3539f53070b4c3f2a1a56f05e4eefb32201dbc0b9df4caabb0e8c5fcb5bca3bd4b5be9e34
+Section: 自用
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Name: AI 日志分析
+Author: MoWang
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.4
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1136
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
+Size: 159664
+MD5sum: 4a2923dc060fa9a7e346062ee629bb0a
+SHA1: 98833ec1cac30068e4c54e2bb5e685eee37d2017
+SHA256: e6c14c0942114c275108eb6ab407319daa2cf6f4d3060e95e641f4f0215321e2
+SHA512: 70ac5cea7e3b92bde26f04cdda1e05db810811e380e33bcf8ecb70aed201135b413020cb20e252d807daa4e1df570463653dd14ddd81b651e2bb91bf0796da3b
+Section: 自用
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+icon: https://huayuarc.github.io/icon/choicy.jpg
 
 Package: com.opa334.crane
 Architecture: iphoneos-arm64e
@@ -397,6 +532,25 @@ Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音
 Tag: role::hacker, purpose::extension
 Name: Rain的通话
 Author: Rain
+
+Package: com.sini921.ccborder
+Architecture: iphoneos-arm64e
+Version: 1.1.2-44
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Filename: debs/com.sini921.ccborder_1.1.2-44_iphoneos-arm64e.deb
+Size: 213596
+MD5sum: 16ba7be5e5df46f7d1efc7a6391b29d4
+SHA1: 4e53812f155a72a09118cc12fb78b112840f6ba2
+SHA256: 75d0a091cc9a2bd85118044efac847340ebc1fa869a7ed5473de83932ca772c5
+SHA512: ef1d9c79a50e3f3d8ef189cf3d90eaeba23a64166d3c45836c345fbb536cc9fbeb7a33dbdc3e4973f49971a9cefd988d18b701075e01a0dec0a4eacbe66d42d6
+Section: 自用
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Name: CCBorder
+Author: fiore & p2kdev & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.snail.allowlocationonce
 Architecture: iphoneos-arm64e
@@ -496,28 +650,6 @@ Name: SmartDeck App
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.smartdeck.json
-
-Package: com.axs.ipslog
-Architecture: iphoneos-arm64
-Version: 5.2.0-31
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 512
-Depends: preferenceloader
-Filename: debs/com.axs.ipslog_5.2.0-31_iphoneos-arm64.deb
-Size: 87630
-MD5sum: fba662bc47c8159b3fbe82076e7f3d73
-SHA1: 2f77e56fb8f4804ef64d9efd141ff0e71e49977d
-SHA256: 0d899012456e9acc3542ec4385a9e0a956e1beaea7153f74aafe080be57542a3
-SHA512: ffdc3d021e3b02085b01d08a6d703ad5dd594452d8d953e91f39dbdbbfc96ecead44ff83202ab5f7e4dfb4e5e0b41fbb114d11a0cae75fb5233bc13e3a2b13ef
-Section: Axs-Tweaks
-Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
- * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索、可筛选分类、可一键清空日志
- * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
- * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
-Name: IPSLog
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ips.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
 Package: com.axs.snapper3tag
 Architecture: iphoneos-arm64e
@@ -914,43 +1046,6 @@ Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
 
-Package: com.iosdump.customcallbg
-Architecture: iphoneos-arm64e
-Version: 0.0.6
-Maintainer: iosdump
-Installed-Size: 748
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
-Size: 68184
-MD5sum: 4784af231359a04d7d47f5745e477ad8
-SHA1: 05cd856e845e44592d0ddd4c2a83c1d298e96420
-SHA256: 57421c570bcab60d66d05e7b01e2fbed1465e361c226554158b6544ab1962795
-SHA512: d1c6d43592501f2aaf0a2efd8bae59b5d706935693fb35204ecf4344067f4f1025fa5ae61b544bc873d748c88ed348bdeec203359ba266d9d9da001d7962a229
-Section: Tweaks
-Description: iOS 14-17 自定义来去电背景插件
-Name: 自定义来去电背景
-Author: iosdump
-icon: https://huayuarc.github.io/icon/CustomCallBg.png
-
-Package: com.lclrc.hammerit
-Architecture: iphoneos-arm64e
-Version: 1.7.1
-Maintainer: lclrc(SquidForce)
-Installed-Size: 3808
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
-Size: 969572
-MD5sum: 289a9b616b2a0f09212db145434dcdec
-SHA1: 2571756867bc55e03e8c8a19fec64614295175d3
-SHA256: db83e986cc746ea3cc5d4f2cdfb1ff807380716fbddbe4a8b9f697d6cfe0b021
-SHA512: 496260c62d3cd5834303ce15cbcc32346f633d04286a6c86ff218359f9840fe80e46d2693459286c378ba8e2da13d11e95b48587eb96e17dfe5db27a64914353
-Section: Tweaks
-Description: Control your text or translate as you wish.
-Name: Hammer It
-Author: lclrc(SquidForce)
-Icon: https://huayuarc.github.io/icon/HammerIt.png
-
 Package: com.lenglengyu.ghallownetwork-rootless
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -968,25 +1063,6 @@ Section: Tweaks
 Description: 国行手机自动允许使用网络。
 Name: Allow Network-Rootless
 Author: lenglengyu
-
-Package: com.mlgm.actra
-Architecture: iphoneos-arm64
-Version: 1.3.5
-Maintainer: mlgm
-Installed-Size: 4116
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
-Conflicts: com.example.actra-plugin
-Filename: debs/com.mlgm.actra_1.3.5_iphoneos-arm64.deb
-Size: 817094
-MD5sum: e27d91e8a742d22ac942f93214995726
-SHA1: 83d180456292e039ce86535742f6a9a0714409d3
-SHA256: 0c7f97a3dcf186ce897a4782e771d71017a59dd875c47e32e352e59aca0a7d75
-SHA512: f8645d434f6676de7ee40739734f7458dd143eac49736dc73676ac5550ba4c9fd640b69bc974bbfde96ebfb6464fb1849dfd4c4c0b2af0530070ce3db8adcaa7
-Section: Tweaks
-Description: 手势与事件自动化工具
-Name: Actra
-Icon: https://mlgm66.github.io/icon/actra.png
-Author: mlgm
 
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm64e
@@ -1076,25 +1152,6 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/stheno/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.nx.stheno.json
 
-Package: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.4
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 1136
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Filename: debs/com.opa334.choicy_1.5.4_iphoneos-arm64e.deb
-Size: 159664
-MD5sum: 4a2923dc060fa9a7e346062ee629bb0a
-SHA1: 98833ec1cac30068e4c54e2bb5e685eee37d2017
-SHA256: e6c14c0942114c275108eb6ab407319daa2cf6f4d3060e95e641f4f0215321e2
-SHA512: 70ac5cea7e3b92bde26f04cdda1e05db810811e380e33bcf8ecb70aed201135b413020cb20e252d807daa4e1df570463653dd14ddd81b651e2bb91bf0796da3b
-Section: Tweaks
-Description: Advanced Tweak Configuration!
-Name: Choicy
-Depiction: https://opa334.github.io/depic/Choicy/index.html
-Author: opa334 <opa334@protonmail.com>
-icon: https://huayuarc.github.io/icon/choicy.jpg
-
 Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64
 Version: 0.1.67
@@ -1179,25 +1236,6 @@ Name: MorrorLyrics 全屏歌词
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/morrorlyrics/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.qianuo.morrorlyrics.json
-
-Package: com.sini921.ccborder
-Architecture: iphoneos-arm64e
-Version: 1.1.2-44
-Maintainer: fiore & p2kdev & SINI
-Installed-Size: 1028
-Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
-Filename: debs/com.sini921.ccborder_1.1.2-44_iphoneos-arm64e.deb
-Size: 213596
-MD5sum: 16ba7be5e5df46f7d1efc7a6391b29d4
-SHA1: 4e53812f155a72a09118cc12fb78b112840f6ba2
-SHA256: 75d0a091cc9a2bd85118044efac847340ebc1fa869a7ed5473de83932ca772c5
-SHA512: ef1d9c79a50e3f3d8ef189cf3d90eaeba23a64166d3c45836c345fbb536cc9fbeb7a33dbdc3e4973f49971a9cefd988d18b701075e01a0dec0a4eacbe66d42d6
-Section: Tweaks
-Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
-Name: CCBorder
-Author: fiore & p2kdev & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
 
 Package: com.sunshinesong.split-view-pro
 Architecture: iphoneos-arm64e
@@ -1639,41 +1677,3 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
-
-Package: com.82flex.singlemutes
-Architecture: iphoneos-arm64e
-Version: 1.7
-Maintainer: 82Flex
-Installed-Size: 168
-Depends: firmware (>= 14.0)
-Conflicts: com.82flex.singlemute
-Filename: debs/com.82flex.singlemutes_1.7_iphoneos-arm64e.deb
-Size: 27736
-MD5sum: 7a8b56896679a43d623d4d5688c51cf1
-SHA1: 713d12b1ef29dce01eec8a5ab268b865fb473b9e
-SHA256: f73b023f04b5babbcf9878ee964dfafe70b9ef6cd95f5975e43a02a282bfec65
-SHA512: de61a052ea2a5ac18be4ad5efce2d167fd8c68967731bd84167fe5f2146ad8388a8acaa74880fc753839a802455d08f2bef8bf01baf3b1be4729e63bc1789290
-Section: 插件
-Description: 状态栏左上角显示静音图标
- * Just a single mute icon on the status bar of iOS
-Name: Single Mute 静音图标
-Author: 82Flex
-icon: https://TrollStoreX.Github.io/sileodepiction/SingleMute/icon.png
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SingleMute/js.json
-
-Package: com.mowang.crashanalyzer
-Architecture: iphoneos-arm64
-Version: 1.4.2
-Maintainer: MoWang
-Installed-Size: 292
-Depends: preferenceloader
-Filename: debs/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64.deb
-Size: 137008
-MD5sum: 12f0d687883f30faffce3b20861023dd
-SHA1: e38dd0bc4e6179a8402316ae8c535dfd0b35f9ce
-SHA256: 3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b
-SHA512: 7aea6db4018bf8f14fc013f3362e116e73887d9dee11a78b275ed4a3539f53070b4c3f2a1a56f05e4eefb32201dbc0b9df4caabb0e8c5fcb5bca3bd4b5be9e34
-Section: 插件
-Description: iOS IPS 日志搜索、进程分组与证据分析
-Name: AI 日志分析
-Author: MoWang
