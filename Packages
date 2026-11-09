@@ -914,6 +914,24 @@ Description: App 隐私保护
 Name: AppProtect(Roothide)
 Author: aReo
 
+Package: com.iosdump.customcallbg
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 68184
+MD5sum: 4784af231359a04d7d47f5745e477ad8
+SHA1: 05cd856e845e44592d0ddd4c2a83c1d298e96420
+SHA256: 57421c570bcab60d66d05e7b01e2fbed1465e361c226554158b6544ab1962795
+SHA512: d1c6d43592501f2aaf0a2efd8bae59b5d706935693fb35204ecf4344067f4f1025fa5ae61b544bc873d748c88ed348bdeec203359ba266d9d9da001d7962a229
+Section: Tweaks
+Description: iOS 14-17 自定义来去电背景插件
+Name: 自定义来去电背景
+Author: iosdump
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+
 Package: com.lclrc.hammerit
 Architecture: iphoneos-arm64e
 Version: 1.7.1
