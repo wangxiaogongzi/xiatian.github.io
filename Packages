@@ -455,6 +455,26 @@ Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 
+Package: cn.octoforce.copyvault
+Architecture: iphoneos-arm64e
+Version: 1.9.0
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1706972
+MD5sum: 1a521f308c287f34e1afb8eb271f98ac
+SHA1: c7e4e8d95c0d60096e581890bae4485b80b15b29
+SHA256: 2c657a466a43716939232d79cbadfd87f0cb01f30c737ef91662ff9bf17c5fc4
+SHA512: a980e7cbcfdcdad67d581a98dff30b284cf61a0972ac10478fee9966013052f969907c2b3e04e9d8ca139b2729d047b87152872d9ecef3606c817af24fe4249e
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Name: CopyVault(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
 Package: cn.octoforce.squidextender
 Architecture: iphoneos-arm64e
 Version: 3.7.4
