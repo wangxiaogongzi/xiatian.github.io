@@ -6,6 +6,8 @@
       "pkgs": [
         "com.stheno.tweak",
         "com.charlieleung.trollopenjb",
+        "cn.octoforce.copyvault",
+        "cn.octoforce.squidextender",
         "cn.zqbb.hello.diagnosticdata",
         "cn.zqbb.hello.jailport",
         "cn.zqbb.hello.keyboard.ai",
@@ -23,8 +25,7 @@
         "com.snail.allowlocationonce",
         "com.tigisoftware.filza64bits",
         "com.wxhbts.leftpan.roothide",
-        "cn.octoforce.copyvault",
-        "cn.octoforce.squidextender"
+        "cn.octoforce.squidgesturepro"
       ]
     },
     {
